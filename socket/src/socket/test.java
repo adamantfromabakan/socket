@@ -36,6 +36,10 @@ public class test {
             StringBuilder responseData = new StringBuilder();
             while((line = in.readLine()) != null) {
             	System.out.println( line);
+            	String phrase = line;
+            	String delims = "[|]";
+            	String[] tokens = phrase.split(delims);
+            	System.out.println(tokens.length);
             }          
            
         }
