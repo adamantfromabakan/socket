@@ -29,17 +29,17 @@ public class test {
             //String data = new String(buf, 0, r);
             //System.out.println(data);
 
-            BufferedReader in = new BufferedReader(new InputStreamReader(s.getInputStream(), "UTF8"));
+            BufferedReader in = new BufferedReader(new InputStreamReader(s.getInputStream(), "UTF8"),16384);
             //System.out.println( in.readLine() );
 
             String line = null;
             StringBuilder responseData = new StringBuilder();
             while((line = in.readLine()) != null) {
-            	System.out.println( line);
-            	String phrase = line;
-            	String delims = "[|]";
-            	String[] tokens = phrase.split(delims);
-            	System.out.println(tokens.length);
+            	//System.out.println( line);
+            	//String phrase = line;
+            	//String delims = "[|]";
+            	//String[] tokens = phrase.split(delims);
+            	System.out.println(line);
             }          
            
         }
