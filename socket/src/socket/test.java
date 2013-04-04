@@ -20,7 +20,8 @@ public class test {
             Socket s = new Socket("90.189.119.84", 35572);
             //Socket s = new Socket("localhost", 8888);
             //Socket s = new Socket("smtp.yandex.ru", 25);
-		    String message = "imei:353451047760580:orders_list,quit;";
+		    //String message = "imei:353451047760580:orders_list,quit;";
+		    String message = "imei:353451047760580:car_info,quit;";
 		    message=message+"\n";//+s.getInetAddress().getHostAddress()+":"+s.getLocalPort();
             s.getOutputStream().write(message.getBytes());
             //s.setSoTimeout(100);            
