@@ -22,8 +22,8 @@ public class connect {
 		//View v;
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyMMddHHmm");
         String strTime = simpleDateFormat.format(new Date());
-        String testconnect = "imei:354777031525012,tracker,"+strTime+",,F,0000.0000,A,0000.0000,N,0000.0000,E,0;";
-        String str_orderd_list = "imei:353451047760580:orders_list,quit;";
+        String testconnect = "imei:354473050898478,tracker,"+strTime+",,F,0000.0000,A,0000.0000,N,0000.0000,E,0;";
+        String str_orderd_list = "imei:354473050898478:orders_list,quit;";
         System.out.println(strTime); 
         System.out.println(testconnect);
 		try {

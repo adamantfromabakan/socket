@@ -15,7 +15,7 @@ class SampleClient extends Thread
             String str_address = "localhost";
             String str_port = "0";        	
             
-            String str_orderd_list = "imei:353451047760580:orders_list,quit;";
+            String str_orderd_list = "imei:354473050898478:orders_list,quit;";
 
             str_address=args[0];
             str_port   =args[1];
