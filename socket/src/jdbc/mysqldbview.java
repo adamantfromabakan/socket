@@ -66,7 +66,7 @@ public class mysqldbview {
 	   public static Connection getConnection()
 	      throws SQLException, IOException
 	   {  Properties props = new Properties();
-	      String fileName = "C:/server/config/ViewDB.properties";
+	      String fileName = "mysql.properties";
 	      FileInputStream in = new FileInputStream(fileName);
 	      props.load(in);
 
