@@ -32,6 +32,13 @@ public class mysqlfromcsv {
         } else {
         str_db   =args[1];
         }
+
+        String str_file;
+        if ((args[2])=="") {
+        str_file   ="serv8.csv";
+        } else {
+        str_file   =args[2];
+        }
         
         String str_connection =	"jdbc:mysql://"+str_host+":3306/"+str_db+"?characterEncoding=UTF-8";
         
@@ -56,7 +63,7 @@ public class mysqlfromcsv {
     Logger log = Logger.getAnonymousLogger();
     StringBuilder sb = new StringBuilder();
     try {
-     InputStream inputStream = new FileInputStream(new File(/*pt + */"serv8.csv"));
+     InputStream inputStream = new FileInputStream(new File(/*pt + */str_file));
      BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
      try {
      String line = reader.readLine();
