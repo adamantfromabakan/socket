@@ -2,6 +2,8 @@ package jdbc;
 
 import java.sql.*;
 
+import javax.swing.JOptionPane;
+
 import oracle.jdbc.driver.*;
 
 public class oracleconn {
@@ -9,11 +11,11 @@ public class oracleconn {
 
 	    final private static String driverName = "oracle.jdbc.driver.OracleDriver";
 	    private static String url;
-	    final private static String server = "10.1.1.12";
-	    final private static String port = "1521";
+	    final private static String server = "adamant-server";
+	    final private static String port = "15211";
 	    final private static String sid = "ADAMANT";
-	    final private static String username = "AG_CHEMA";
-	    final private static String password = "ag";
+	    final private static String username = "adamant_chema";
+	    final private static String password = JOptionPane.showInputDialog("Enter 'password'");
 	    private static Connection connection;
 	    private static boolean isConnected = false;
 	    private static boolean connect() {
@@ -29,7 +31,7 @@ public class oracleconn {
 	            isConnected = true;
 	        String vtable_name;
 	    	Statement stmt=connection.createStatement();
-	    	ResultSet rs=stmt.executeQuery("SELECT table_name FROM user_tables");
+	    	ResultSet rs=stmt.executeQuery("SELECT say_hello_from_java_to('adamant') table_name FROM dual");
 	    	ResultSetMetaData meta = rs.getMetaData();
 	    	System.out.println(rs.getConcurrency());
 	    	System.out.println(meta.getColumnCount());
