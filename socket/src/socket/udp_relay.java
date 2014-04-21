@@ -41,6 +41,7 @@ public class udp_relay {
             DatagramPacket incoming = new DatagramPacket(buffer, buffer.length);
              
             //2. Wait for an incoming data
+            echo("Socket UDPRelay Tool v.1.0, created by Kargin Alexandr");
             echo("Server socket created. Waiting for incoming data...");
              
             //communication loop

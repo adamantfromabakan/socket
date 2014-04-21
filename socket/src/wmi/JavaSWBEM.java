@@ -8,9 +8,9 @@ public class JavaSWBEM {
 
   public static void main(String args[]){
     // Uncomment this line if JavaSWBEM.java is running on another remote machine.
-    // String NtDomain   = "MANAGING_MACHINE_NT_DOMAIN";
-    // String NtUser     = "MANAGING_MACHINE_NT_USER";
-    // String NtPassword = "MANAGING_MACHINE_NT_PASSWORD";
+     String NtDomain   = "MANAGING_MACHINE_NT_DOMAIN";
+     String NtUser     = "MANAGING_MACHINE_NT_USER";
+     String NtPassword = "MANAGING_MACHINE_NT_PASSWORD";
 
     // Any Windows machine with WMI installed and configured for DCOM access.
     // For this example we use local machine where JavaSWBEM.java is running as the managing machine.
@@ -18,6 +18,7 @@ public class JavaSWBEM {
 
     // A Windows machine we need to manage. Can be any machine - can be same as or different from the managing machine.
     String managedMachine  = "MANAGED_MACHINE_NETWORK_NAME";
+    //String managedMachine  = "localhost";
 
     try{
       // Enable logging:
@@ -25,7 +26,7 @@ public class JavaSWBEM {
 
       // DCOM authentication: Make sure NtDomain, NtUser, NtPassword are valid credentials.
       // Uncomment this line if JavaSWBEM.java remotely accesses WMI:
-      // com.linar.jintegra.AuthInfo.setDefault(NtDomain, NtUser, NtPassword);
+       com.linar.jintegra.AuthInfo.setDefault(NtDomain, NtUser, NtPassword);
 
       // Create Service Locator on a Windows machine
       // This Locator object will be obtain WBEM services.

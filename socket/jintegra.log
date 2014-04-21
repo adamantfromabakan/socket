@@ -1,1 +1,10 @@
-J-Integra version 64.00  logger started in immediate mode at Mon Apr 21 08:29:46 KRAT 2014 at level 3 (VERBOSE)
+J-Integra version 64.00  (reduced logging) logger started in immediate mode at Mon Apr 21 13:56:21 KRAT 2014 at level 3 (VERBOSE)
+License: Product:J-Integra for COM 64-bit Licencee:hes (adamant10@yandex.ru) DateOfIssue:18 јпрель 2014 г. LicenseType:Trial TrialDays:30 VersionAtIssue:64.00
+Classloader is bootstrap
+java.version is 1.6.0_35
+java.vendor is Sun Microsystems Inc.
+java.class.path is C:\SERVER\git\git\socket\socket\bin;C:\SERVER\git\git\socket\socket\lib\oracle\ojdbc14.jar;C:\SERVER\git\git\socket\socket\lib\mysql\mysql-connector-java-5.0.8-bin.jar;C:\SERVER\git\git\socket\socket\lib\j-interop.jar;C:\SERVER\git\git\socket\socket\lib\jintegra_reduced_logging.jar;C:\SERVER\git\git\socket\socket\lib\jintegra.jar
+java.library.path is C:\SERVER\glassfish3\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oracle\product\10.2.0\client_1\bin;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\SERVER\glassfish3\jdk\bin;C:\SERVER\apache-maven-2.2.1\bin;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files (x86)\Microsoft SQL Server\80\Tools\BINN;c:\P2kServer;C:\Program Files (x86)\PHP\;C:\Program Files\FERRO Software\FtpUse;C:\SERVER\FtpUse;C:\SERVER\JARS;C:\Program Files (x86)\Network Associates\PGPcmdln;C:\Users\kargin_as\android-sdks\tools;C:\SERVER\android-ndk-r9b;C:\SERVER\cygwin64\bin;C:\Users\kargin_as\android-sdks\platform-tools;.
+os.name/os.arch/os.version is Windows 7/amd64/6.1
+1398059781711 *: Received a fault (code:5) in response to IRemoteActivation::RemoteActivation request, with RPC call id 2
+1398059781719 *: Error activating 76a64158-cb41-11d1-8b02-00600806d9b6/76a6415b-cb41-11d1-8b02-00600806d9b6: AutomationException: 0x5 - Access is denied. in 'Invoke'
