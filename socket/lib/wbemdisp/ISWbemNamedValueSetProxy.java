@@ -2,7 +2,7 @@ package wbemdisp;
 
 import com.linar.jintegra.*;
 /**
- * Proxy for COM Interface 'ISWbemNamedValueSet'. Generated 18.04.2014 15:20:21
+ * Proxy for COM Interface 'ISWbemNamedValueSet'. Generated 21.04.2014 14:38:47
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -14,11 +14,11 @@ import com.linar.jintegra.*;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -137,14 +137,14 @@ public class ISWbemNamedValueSetProxy extends com.linar.jintegra.Dispatch implem
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public java.util.Enumeration get_NewEnum  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    java.util.Enumeration zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("get_NewEnum", 7, zz_parameters);
-    return (java.util.Enumeration)zz_retVal[0];
+    java.util.Enumeration ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("get_NewEnum", 7, ав=parameters);
+    return (java.util.Enumeration)ав=retVal[0];
   }
 
   /**
-   * item. Get a named value from this Collection
+   * Item. Get a named value from this Collection
    *
    * @param     strName The strName (in)
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
@@ -152,13 +152,13 @@ public class ISWbemNamedValueSetProxy extends com.linar.jintegra.Dispatch implem
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemNamedValue item  (
+  public wbemdisp.ISWbemNamedValue Item  (
               String strName,
               int iFlags) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemNamedValue zz_retVal[] = { null };
-    Object zz_parameters[] = { strName, new Integer(iFlags), zz_retVal };
-    vtblInvoke("item", 8, zz_parameters);
-    return (wbemdisp.ISWbemNamedValue)zz_retVal[0];
+    wbemdisp.ISWbemNamedValue ав=retVal[] = { null };
+    Object ав=parameters[] = { strName, new Integer(iFlags), ав=retVal };
+    vtblInvoke("Item", 8, ав=parameters);
+    return (wbemdisp.ISWbemNamedValue)ав=retVal[0];
   }
 
   /**
@@ -169,14 +169,14 @@ public class ISWbemNamedValueSetProxy extends com.linar.jintegra.Dispatch implem
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public int getCount  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    int zz_retVal[] = { 0 };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getCount", 9, zz_parameters);
-    return zz_retVal[0];
+    int ав=retVal[] = { 0 };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getCount", 9, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
-   * add. Add a named value to this collection
+   * Add. Add a named value to this collection
    *
    * @param     strName The strName (in)
    * @param     varValue A Variant (in)
@@ -185,57 +185,57 @@ public class ISWbemNamedValueSetProxy extends com.linar.jintegra.Dispatch implem
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemNamedValue add  (
+  public wbemdisp.ISWbemNamedValue Add  (
               String strName,
               Object varValue,
               int iFlags) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemNamedValue zz_retVal[] = { null };
-    Object zz_parameters[] = { strName, varValue == null ? new Variant("varValue") : varValue, new Integer(iFlags), zz_retVal };
-    vtblInvoke("add", 10, zz_parameters);
-    return (wbemdisp.ISWbemNamedValue)zz_retVal[0];
+    wbemdisp.ISWbemNamedValue ав=retVal[] = { null };
+    Object ав=parameters[] = { strName, varValue == null ? new Variant("varValue") : varValue, new Integer(iFlags), ав=retVal };
+    vtblInvoke("Add", 10, ав=parameters);
+    return (wbemdisp.ISWbemNamedValue)ав=retVal[0];
   }
 
   /**
-   * remove. Remove a named value from this collection
+   * Remove. Remove a named value from this collection
    *
    * @param     strName The strName (in)
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void remove  (
+  public void Remove  (
               String strName,
               int iFlags) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { strName, new Integer(iFlags), zz_retVal };
-    vtblInvoke("remove", 11, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { strName, new Integer(iFlags), ав=retVal };
+    vtblInvoke("Remove", 11, ав=parameters);
     return;
   }
 
   /**
-   * zz_clone. Make a copy of this collection
+   * Clone. Make a copy of this collection
    *
    * @return    A reference to a wbemdisp.ISWbemNamedValueSet
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemNamedValueSet zz_clone  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemNamedValueSet zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("zz_clone", 12, zz_parameters);
-    return (wbemdisp.ISWbemNamedValueSet)zz_retVal[0];
+  public wbemdisp.ISWbemNamedValueSet Clone  () throws java.io.IOException, com.linar.jintegra.AutomationException{
+    wbemdisp.ISWbemNamedValueSet ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("Clone", 12, ав=parameters);
+    return (wbemdisp.ISWbemNamedValueSet)ав=retVal[0];
   }
 
   /**
-   * deleteAll. Delete all items in this collection
+   * DeleteAll. Delete all items in this collection
    *
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void deleteAll  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("deleteAll", 13, zz_parameters);
+  public void DeleteAll  () throws java.io.IOException, com.linar.jintegra.AutomationException{
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("DeleteAll", 13, ав=parameters);
     return;
   }
 

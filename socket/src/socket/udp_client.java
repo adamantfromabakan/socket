@@ -8,7 +8,7 @@ public class udp_client
     public static void main(String args[])
     {
         DatagramSocket sock = null;
-        int port = 7777;
+        int port = 53;
         String s;
          
         BufferedReader cin = new BufferedReader(new InputStreamReader(System.in));

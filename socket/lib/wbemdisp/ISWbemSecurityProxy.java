@@ -2,7 +2,7 @@ package wbemdisp;
 
 import com.linar.jintegra.*;
 /**
- * Proxy for COM Interface 'ISWbemSecurity'. Generated 18.04.2014 15:20:21
+ * Proxy for COM Interface 'ISWbemSecurity'. Generated 21.04.2014 14:38:47
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -14,11 +14,11 @@ import com.linar.jintegra.*;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -137,10 +137,10 @@ public class ISWbemSecurityProxy extends com.linar.jintegra.Dispatch implements 
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public int getImpersonationLevel  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    int zz_retVal[] = { 0 };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getImpersonationLevel", 7, zz_parameters);
-    return zz_retVal[0];
+    int ав=retVal[] = { 0 };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getImpersonationLevel", 7, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
@@ -152,9 +152,9 @@ public class ISWbemSecurityProxy extends com.linar.jintegra.Dispatch implements 
    */
   public void setImpersonationLevel  (
               int iImpersonationLevel) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { new Integer(iImpersonationLevel), zz_retVal };
-    vtblInvoke("setImpersonationLevel", 8, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { new Integer(iImpersonationLevel), ав=retVal };
+    vtblInvoke("setImpersonationLevel", 8, ав=parameters);
     return;
   }
 
@@ -166,10 +166,10 @@ public class ISWbemSecurityProxy extends com.linar.jintegra.Dispatch implements 
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public int getAuthenticationLevel  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    int zz_retVal[] = { 0 };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getAuthenticationLevel", 9, zz_parameters);
-    return zz_retVal[0];
+    int ав=retVal[] = { 0 };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getAuthenticationLevel", 9, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
@@ -181,9 +181,9 @@ public class ISWbemSecurityProxy extends com.linar.jintegra.Dispatch implements 
    */
   public void setAuthenticationLevel  (
               int iAuthenticationLevel) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { new Integer(iAuthenticationLevel), zz_retVal };
-    vtblInvoke("setAuthenticationLevel", 10, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { new Integer(iAuthenticationLevel), ав=retVal };
+    vtblInvoke("setAuthenticationLevel", 10, ав=parameters);
     return;
   }
 
@@ -195,10 +195,10 @@ public class ISWbemSecurityProxy extends com.linar.jintegra.Dispatch implements 
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public wbemdisp.ISWbemPrivilegeSet getPrivileges  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemPrivilegeSet zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getPrivileges", 11, zz_parameters);
-    return (wbemdisp.ISWbemPrivilegeSet)zz_retVal[0];
+    wbemdisp.ISWbemPrivilegeSet ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getPrivileges", 11, ав=parameters);
+    return (wbemdisp.ISWbemPrivilegeSet)ав=retVal[0];
   }
 
   /** Dummy reference from interface to proxy to make sure proxy gets compiled */

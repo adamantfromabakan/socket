@@ -3,7 +3,7 @@ package wbemdisp;
 import com.linar.jintegra.*;
 
 /**
- * COM Class 'SWbemPropertySet'. Generated 18.04.2014 15:20:21
+ * COM Class 'SWbemPropertySet'. Generated 21.04.2014 14:38:46
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -15,11 +15,11 @@ import com.linar.jintegra.*;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -181,7 +181,7 @@ public class SWbemPropertySet implements com.linar.jintegra.RemoteObjRef, wbemdi
   }
 
   /**
-   * item. Get a named Property from this collection
+   * Item. Get a named Property from this collection
    *
    * @param     strName The strName (in)
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
@@ -189,11 +189,11 @@ public class SWbemPropertySet implements com.linar.jintegra.RemoteObjRef, wbemdi
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemProperty item  (
+  public wbemdisp.ISWbemProperty Item  (
               String strName,
               int iFlags) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      return d_ISWbemPropertySetProxy.item(strName,iFlags);
+      return d_ISWbemPropertySetProxy.Item(strName,iFlags);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -217,7 +217,7 @@ public class SWbemPropertySet implements com.linar.jintegra.RemoteObjRef, wbemdi
   }
 
   /**
-   * add. Add a Property to this collection
+   * Add. Add a Property to this collection
    *
    * @param     strName The strName (in)
    * @param     iCimType A wbemdisp.WbemCimtypeEnum constant (in)
@@ -227,13 +227,13 @@ public class SWbemPropertySet implements com.linar.jintegra.RemoteObjRef, wbemdi
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemProperty add  (
+  public wbemdisp.ISWbemProperty Add  (
               String strName,
               int iCimType,
               boolean bIsArray,
               int iFlags) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      return d_ISWbemPropertySetProxy.add(strName,iCimType,bIsArray,iFlags);
+      return d_ISWbemPropertySetProxy.Add(strName,iCimType,bIsArray,iFlags);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -241,18 +241,18 @@ public class SWbemPropertySet implements com.linar.jintegra.RemoteObjRef, wbemdi
   }
 
   /**
-   * remove. Remove a Property from this collection
+   * Remove. Remove a Property from this collection
    *
    * @param     strName The strName (in)
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void remove  (
+  public void Remove  (
               String strName,
               int iFlags) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      d_ISWbemPropertySetProxy.remove(strName,iFlags);
+      d_ISWbemPropertySetProxy.Remove(strName,iFlags);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;

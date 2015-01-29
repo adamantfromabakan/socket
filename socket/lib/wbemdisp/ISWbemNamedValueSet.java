@@ -1,7 +1,7 @@
 package wbemdisp;
 
 /**
- * COM Interface 'ISWbemNamedValueSet'. Generated 18.04.2014 15:20:21
+ * COM Interface 'ISWbemNamedValueSet'. Generated 21.04.2014 14:38:47
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -13,11 +13,11 @@ package wbemdisp;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -27,7 +27,7 @@ package wbemdisp;
  *   MakeClsidsPublic = False
  *   DontOverwrite = False
  */
-public interface ISWbemNamedValueSet extends java.io.Serializable {
+public interface ISWbemNamedValueSet {
   /**
    * get_NewEnum. 
    *
@@ -38,7 +38,7 @@ public interface ISWbemNamedValueSet extends java.io.Serializable {
   public java.util.Enumeration get_NewEnum  () throws java.io.IOException, com.linar.jintegra.AutomationException;
 
   /**
-   * item. Get a named value from this Collection
+   * Item. Get a named value from this Collection
    *
    * @param     strName The strName (in)
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
@@ -46,7 +46,7 @@ public interface ISWbemNamedValueSet extends java.io.Serializable {
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemNamedValue item  (
+  public wbemdisp.ISWbemNamedValue Item  (
               String strName,
               int iFlags) throws java.io.IOException, com.linar.jintegra.AutomationException;
 
@@ -60,7 +60,7 @@ public interface ISWbemNamedValueSet extends java.io.Serializable {
   public int getCount  () throws java.io.IOException, com.linar.jintegra.AutomationException;
 
   /**
-   * add. Add a named value to this collection
+   * Add. Add a named value to this collection
    *
    * @param     strName The strName (in)
    * @param     varValue A Variant (in)
@@ -69,39 +69,39 @@ public interface ISWbemNamedValueSet extends java.io.Serializable {
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemNamedValue add  (
+  public wbemdisp.ISWbemNamedValue Add  (
               String strName,
               Object varValue,
               int iFlags) throws java.io.IOException, com.linar.jintegra.AutomationException;
 
   /**
-   * remove. Remove a named value from this collection
+   * Remove. Remove a named value from this collection
    *
    * @param     strName The strName (in)
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void remove  (
+  public void Remove  (
               String strName,
               int iFlags) throws java.io.IOException, com.linar.jintegra.AutomationException;
 
   /**
-   * zz_clone. Make a copy of this collection
+   * Clone. Make a copy of this collection
    *
    * @return    A reference to a wbemdisp.ISWbemNamedValueSet
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemNamedValueSet zz_clone  () throws java.io.IOException, com.linar.jintegra.AutomationException;
+  public wbemdisp.ISWbemNamedValueSet Clone  () throws java.io.IOException, com.linar.jintegra.AutomationException;
 
   /**
-   * deleteAll. Delete all items in this collection
+   * DeleteAll. Delete all items in this collection
    *
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void deleteAll  () throws java.io.IOException, com.linar.jintegra.AutomationException;
+  public void DeleteAll  () throws java.io.IOException, com.linar.jintegra.AutomationException;
 
 
   // Constants to help J-Integra for COM dynamically map DCOM invocations to
@@ -112,10 +112,10 @@ public interface ISWbemNamedValueSet extends java.io.Serializable {
   /** Used internally by J-Integra for COM, please ignore */
   String IID = "cf2376ea-ce8c-11d1-8b05-00600806d9b6";
   String DISPID__4_GET_NAME = "get_NewEnum";
-  String DISPID_0_NAME = "item";
+  String DISPID_0_NAME = "Item";
   String DISPID_1_GET_NAME = "getCount";
-  String DISPID_2_NAME = "add";
-  String DISPID_3_NAME = "remove";
-  String DISPID_4_NAME = "zz_clone";
-  String DISPID_5_NAME = "deleteAll";
+  String DISPID_2_NAME = "Add";
+  String DISPID_3_NAME = "Remove";
+  String DISPID_4_NAME = "Clone";
+  String DISPID_5_NAME = "DeleteAll";
 }

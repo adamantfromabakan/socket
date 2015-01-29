@@ -2,7 +2,7 @@ package wbemdisp;
 
 import com.linar.jintegra.*;
 /**
- * Proxy for COM Interface 'ISWbemRefresher'. Generated 18.04.2014 15:20:22
+ * Proxy for COM Interface 'ISWbemRefresher'. Generated 21.04.2014 14:38:48
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -14,11 +14,11 @@ import com.linar.jintegra.*;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -137,26 +137,26 @@ public class ISWbemRefresherProxy extends com.linar.jintegra.Dispatch implements
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public java.util.Enumeration get_NewEnum  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    java.util.Enumeration zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("get_NewEnum", 7, zz_parameters);
-    return (java.util.Enumeration)zz_retVal[0];
+    java.util.Enumeration ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("get_NewEnum", 7, ав=parameters);
+    return (java.util.Enumeration)ав=retVal[0];
   }
 
   /**
-   * item. Get an item from this refresher
+   * Item. Get an item from this refresher
    *
    * @param     iIndex The iIndex (in)
    * @return    A reference to a wbemdisp.ISWbemRefreshableItem
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemRefreshableItem item  (
+  public wbemdisp.ISWbemRefreshableItem Item  (
               int iIndex) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemRefreshableItem zz_retVal[] = { null };
-    Object zz_parameters[] = { new Integer(iIndex), zz_retVal };
-    vtblInvoke("item", 8, zz_parameters);
-    return (wbemdisp.ISWbemRefreshableItem)zz_retVal[0];
+    wbemdisp.ISWbemRefreshableItem ав=retVal[] = { null };
+    Object ав=parameters[] = { new Integer(iIndex), ав=retVal };
+    vtblInvoke("Item", 8, ав=parameters);
+    return (wbemdisp.ISWbemRefreshableItem)ав=retVal[0];
   }
 
   /**
@@ -167,14 +167,14 @@ public class ISWbemRefresherProxy extends com.linar.jintegra.Dispatch implements
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public int getCount  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    int zz_retVal[] = { 0 };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getCount", 9, zz_parameters);
-    return zz_retVal[0];
+    int ав=retVal[] = { 0 };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getCount", 9, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
-   * add. Add a refreshable instance to this refresher
+   * Add. Add a refreshable instance to this refresher
    *
    * @param     objWbemServices A reference to a wbemdisp.ISWbemServicesEx (in)
    * @param     bsInstancePath The bsInstancePath (in)
@@ -184,19 +184,19 @@ public class ISWbemRefresherProxy extends com.linar.jintegra.Dispatch implements
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemRefreshableItem add  (
+  public wbemdisp.ISWbemRefreshableItem Add  (
               wbemdisp.ISWbemServicesEx objWbemServices,
               String bsInstancePath,
               int iFlags,
               Object objWbemNamedValueSet) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemRefreshableItem zz_retVal[] = { null };
-    Object zz_parameters[] = { objWbemServices, bsInstancePath, new Integer(iFlags), objWbemNamedValueSet, zz_retVal };
-    vtblInvoke("add", 10, zz_parameters);
-    return (wbemdisp.ISWbemRefreshableItem)zz_retVal[0];
+    wbemdisp.ISWbemRefreshableItem ав=retVal[] = { null };
+    Object ав=parameters[] = { objWbemServices, bsInstancePath, new Integer(iFlags), objWbemNamedValueSet, ав=retVal };
+    vtblInvoke("Add", 10, ав=parameters);
+    return (wbemdisp.ISWbemRefreshableItem)ав=retVal[0];
   }
 
   /**
-   * addEnum. Add a refreshable enumerator to this refresher
+   * AddEnum. Add a refreshable enumerator to this refresher
    *
    * @param     objWbemServices A reference to a wbemdisp.ISWbemServicesEx (in)
    * @param     bsClassName The bsClassName (in)
@@ -206,46 +206,46 @@ public class ISWbemRefresherProxy extends com.linar.jintegra.Dispatch implements
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemRefreshableItem addEnum  (
+  public wbemdisp.ISWbemRefreshableItem AddEnum  (
               wbemdisp.ISWbemServicesEx objWbemServices,
               String bsClassName,
               int iFlags,
               Object objWbemNamedValueSet) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemRefreshableItem zz_retVal[] = { null };
-    Object zz_parameters[] = { objWbemServices, bsClassName, new Integer(iFlags), objWbemNamedValueSet, zz_retVal };
-    vtblInvoke("addEnum", 11, zz_parameters);
-    return (wbemdisp.ISWbemRefreshableItem)zz_retVal[0];
+    wbemdisp.ISWbemRefreshableItem ав=retVal[] = { null };
+    Object ав=parameters[] = { objWbemServices, bsClassName, new Integer(iFlags), objWbemNamedValueSet, ав=retVal };
+    vtblInvoke("AddEnum", 11, ав=parameters);
+    return (wbemdisp.ISWbemRefreshableItem)ав=retVal[0];
   }
 
   /**
-   * remove. Remove an item from this refresher
+   * Remove. Remove an item from this refresher
    *
    * @param     iIndex The iIndex (in)
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void remove  (
+  public void Remove  (
               int iIndex,
               int iFlags) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { new Integer(iIndex), new Integer(iFlags), zz_retVal };
-    vtblInvoke("remove", 12, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { new Integer(iIndex), new Integer(iFlags), ав=retVal };
+    vtblInvoke("Remove", 12, ав=parameters);
     return;
   }
 
   /**
-   * refresh. Refresh all items in this collection
+   * Refresh. Refresh all items in this collection
    *
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void refresh  (
+  public void Refresh  (
               int iFlags) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { new Integer(iFlags), zz_retVal };
-    vtblInvoke("refresh", 13, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { new Integer(iFlags), ав=retVal };
+    vtblInvoke("Refresh", 13, ав=parameters);
     return;
   }
 
@@ -257,10 +257,10 @@ public class ISWbemRefresherProxy extends com.linar.jintegra.Dispatch implements
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public boolean isAutoReconnect  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    boolean zz_retVal[] = { false };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("isAutoReconnect", 14, zz_parameters);
-    return zz_retVal[0];
+    boolean ав=retVal[] = { false };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("isAutoReconnect", 14, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
@@ -272,22 +272,22 @@ public class ISWbemRefresherProxy extends com.linar.jintegra.Dispatch implements
    */
   public void setAutoReconnect  (
               boolean bCount) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { new Boolean(bCount), zz_retVal };
-    vtblInvoke("setAutoReconnect", 15, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { new Boolean(bCount), ав=retVal };
+    vtblInvoke("setAutoReconnect", 15, ав=parameters);
     return;
   }
 
   /**
-   * deleteAll. Delete all items in this collection
+   * DeleteAll. Delete all items in this collection
    *
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void deleteAll  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("deleteAll", 16, zz_parameters);
+  public void DeleteAll  () throws java.io.IOException, com.linar.jintegra.AutomationException{
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("DeleteAll", 16, ав=parameters);
     return;
   }
 

@@ -2,7 +2,7 @@ package wbemdisp;
 
 import com.linar.jintegra.*;
 /**
- * Proxy for COM Interface 'ISWbemPrivilege'. Generated 18.04.2014 15:20:21
+ * Proxy for COM Interface 'ISWbemPrivilege'. Generated 21.04.2014 14:38:47
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -14,11 +14,11 @@ import com.linar.jintegra.*;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -137,10 +137,10 @@ public class ISWbemPrivilegeProxy extends com.linar.jintegra.Dispatch implements
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public boolean isEnabled  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    boolean zz_retVal[] = { false };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("isEnabled", 7, zz_parameters);
-    return zz_retVal[0];
+    boolean ав=retVal[] = { false };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("isEnabled", 7, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
@@ -152,9 +152,9 @@ public class ISWbemPrivilegeProxy extends com.linar.jintegra.Dispatch implements
    */
   public void setIsEnabled  (
               boolean bIsEnabled) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { new Boolean(bIsEnabled), zz_retVal };
-    vtblInvoke("setIsEnabled", 8, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { new Boolean(bIsEnabled), ав=retVal };
+    vtblInvoke("setIsEnabled", 8, ав=parameters);
     return;
   }
 
@@ -166,10 +166,10 @@ public class ISWbemPrivilegeProxy extends com.linar.jintegra.Dispatch implements
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public String getName  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    String zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getName", 9, zz_parameters);
-    return (String)zz_retVal[0];
+    String ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getName", 9, ав=parameters);
+    return (String)ав=retVal[0];
   }
 
   /**
@@ -180,10 +180,10 @@ public class ISWbemPrivilegeProxy extends com.linar.jintegra.Dispatch implements
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public String getDisplayName  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    String zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getDisplayName", 10, zz_parameters);
-    return (String)zz_retVal[0];
+    String ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getDisplayName", 10, ав=parameters);
+    return (String)ав=retVal[0];
   }
 
   /**
@@ -194,10 +194,10 @@ public class ISWbemPrivilegeProxy extends com.linar.jintegra.Dispatch implements
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public int getIdentifier  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    int zz_retVal[] = { 0 };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getIdentifier", 11, zz_parameters);
-    return zz_retVal[0];
+    int ав=retVal[] = { 0 };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getIdentifier", 11, ав=parameters);
+    return ав=retVal[0];
   }
 
   /** Dummy reference from interface to proxy to make sure proxy gets compiled */

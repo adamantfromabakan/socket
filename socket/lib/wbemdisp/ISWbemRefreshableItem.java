@@ -1,7 +1,7 @@
 package wbemdisp;
 
 /**
- * COM Interface 'ISWbemRefreshableItem'. Generated 18.04.2014 15:20:22
+ * COM Interface 'ISWbemRefreshableItem'. Generated 21.04.2014 14:38:48
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -13,11 +13,11 @@ package wbemdisp;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -27,7 +27,7 @@ package wbemdisp;
  *   MakeClsidsPublic = False
  *   DontOverwrite = False
  */
-public interface ISWbemRefreshableItem extends java.io.Serializable {
+public interface ISWbemRefreshableItem {
   /**
    * getIndex. The index of this item in the parent refresher
    *
@@ -74,13 +74,13 @@ public interface ISWbemRefreshableItem extends java.io.Serializable {
   public wbemdisp.ISWbemObjectSet getObjectSet  () throws java.io.IOException, com.linar.jintegra.AutomationException;
 
   /**
-   * remove. Remove this item from the parent refresher
+   * Remove. Remove this item from the parent refresher
    *
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void remove  (
+  public void Remove  (
               int iFlags) throws java.io.IOException, com.linar.jintegra.AutomationException;
 
 
@@ -96,5 +96,5 @@ public interface ISWbemRefreshableItem extends java.io.Serializable {
   String DISPID_3_GET_NAME = "isSet";
   String DISPID_4_GET_NAME = "getObject";
   String DISPID_5_GET_NAME = "getObjectSet";
-  String DISPID_6_NAME = "remove";
+  String DISPID_6_NAME = "Remove";
 }

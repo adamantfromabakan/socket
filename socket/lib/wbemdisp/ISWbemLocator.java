@@ -1,7 +1,7 @@
 package wbemdisp;
 
 /**
- * COM Interface 'ISWbemLocator'. Generated 18.04.2014 15:20:21
+ * COM Interface 'ISWbemLocator'. Generated 21.04.2014 14:38:47
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -13,11 +13,11 @@ package wbemdisp;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -27,9 +27,9 @@ package wbemdisp;
  *   MakeClsidsPublic = False
  *   DontOverwrite = False
  */
-public interface ISWbemLocator extends java.io.Serializable {
+public interface ISWbemLocator {
   /**
-   * connectServer. Connect to a Namespace
+   * ConnectServer. Connect to a Namespace
    *
    * @param     strServer The strServer (in, optional, pass . if not required)
    * @param     strNamespace The strNamespace (in, optional, pass  if not required)
@@ -43,7 +43,7 @@ public interface ISWbemLocator extends java.io.Serializable {
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemServices connectServer  (
+  public wbemdisp.ISWbemServices ConnectServer  (
               String strServer,
               String strNamespace,
               String strUser,
@@ -70,6 +70,6 @@ public interface ISWbemLocator extends java.io.Serializable {
   int xxDummy = ISWbemLocatorProxy.xxDummy;
   /** Used internally by J-Integra for COM, please ignore */
   String IID = "76a6415b-cb41-11d1-8b02-00600806d9b6";
-  String DISPID_1_NAME = "connectServer";
+  String DISPID_1_NAME = "ConnectServer";
   String DISPID_2_GET_NAME = "getSecurity_";
 }

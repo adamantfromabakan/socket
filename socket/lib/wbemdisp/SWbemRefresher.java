@@ -3,7 +3,7 @@ package wbemdisp;
 import com.linar.jintegra.*;
 
 /**
- * COM Class 'SWbemRefresher'. Generated 18.04.2014 15:20:21
+ * COM Class 'SWbemRefresher'. Generated 21.04.2014 14:38:46
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -15,11 +15,11 @@ import com.linar.jintegra.*;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -201,17 +201,17 @@ public class SWbemRefresher implements com.linar.jintegra.RemoteObjRef, wbemdisp
   }
 
   /**
-   * item. Get an item from this refresher
+   * Item. Get an item from this refresher
    *
    * @param     iIndex The iIndex (in)
    * @return    A reference to a wbemdisp.ISWbemRefreshableItem
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemRefreshableItem item  (
+  public wbemdisp.ISWbemRefreshableItem Item  (
               int iIndex) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      return d_ISWbemRefresherProxy.item(iIndex);
+      return d_ISWbemRefresherProxy.Item(iIndex);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -235,7 +235,7 @@ public class SWbemRefresher implements com.linar.jintegra.RemoteObjRef, wbemdisp
   }
 
   /**
-   * add. Add a refreshable instance to this refresher
+   * Add. Add a refreshable instance to this refresher
    *
    * @param     objWbemServices A reference to a wbemdisp.ISWbemServicesEx (in)
    * @param     bsInstancePath The bsInstancePath (in)
@@ -245,13 +245,13 @@ public class SWbemRefresher implements com.linar.jintegra.RemoteObjRef, wbemdisp
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemRefreshableItem add  (
+  public wbemdisp.ISWbemRefreshableItem Add  (
               wbemdisp.ISWbemServicesEx objWbemServices,
               String bsInstancePath,
               int iFlags,
               Object objWbemNamedValueSet) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      return d_ISWbemRefresherProxy.add(objWbemServices,bsInstancePath,iFlags,objWbemNamedValueSet);
+      return d_ISWbemRefresherProxy.Add(objWbemServices,bsInstancePath,iFlags,objWbemNamedValueSet);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -259,7 +259,7 @@ public class SWbemRefresher implements com.linar.jintegra.RemoteObjRef, wbemdisp
   }
 
   /**
-   * addEnum. Add a refreshable enumerator to this refresher
+   * AddEnum. Add a refreshable enumerator to this refresher
    *
    * @param     objWbemServices A reference to a wbemdisp.ISWbemServicesEx (in)
    * @param     bsClassName The bsClassName (in)
@@ -269,13 +269,13 @@ public class SWbemRefresher implements com.linar.jintegra.RemoteObjRef, wbemdisp
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemRefreshableItem addEnum  (
+  public wbemdisp.ISWbemRefreshableItem AddEnum  (
               wbemdisp.ISWbemServicesEx objWbemServices,
               String bsClassName,
               int iFlags,
               Object objWbemNamedValueSet) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      return d_ISWbemRefresherProxy.addEnum(objWbemServices,bsClassName,iFlags,objWbemNamedValueSet);
+      return d_ISWbemRefresherProxy.AddEnum(objWbemServices,bsClassName,iFlags,objWbemNamedValueSet);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -283,18 +283,18 @@ public class SWbemRefresher implements com.linar.jintegra.RemoteObjRef, wbemdisp
   }
 
   /**
-   * remove. Remove an item from this refresher
+   * Remove. Remove an item from this refresher
    *
    * @param     iIndex The iIndex (in)
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void remove  (
+  public void Remove  (
               int iIndex,
               int iFlags) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      d_ISWbemRefresherProxy.remove(iIndex,iFlags);
+      d_ISWbemRefresherProxy.Remove(iIndex,iFlags);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -302,16 +302,16 @@ public class SWbemRefresher implements com.linar.jintegra.RemoteObjRef, wbemdisp
   }
 
   /**
-   * refresh. Refresh all items in this collection
+   * Refresh. Refresh all items in this collection
    *
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void refresh  (
+  public void Refresh  (
               int iFlags) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      d_ISWbemRefresherProxy.refresh(iFlags);
+      d_ISWbemRefresherProxy.Refresh(iFlags);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -352,14 +352,14 @@ public class SWbemRefresher implements com.linar.jintegra.RemoteObjRef, wbemdisp
   }
 
   /**
-   * deleteAll. Delete all items in this collection
+   * DeleteAll. Delete all items in this collection
    *
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void deleteAll  () throws java.io.IOException, com.linar.jintegra.AutomationException {
+  public void DeleteAll  () throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      d_ISWbemRefresherProxy.deleteAll();
+      d_ISWbemRefresherProxy.DeleteAll();
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;

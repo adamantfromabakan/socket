@@ -1,7 +1,7 @@
 package wbemdisp;
 
 /**
- * COM Interface 'ISWbemEventSource'. Generated 18.04.2014 15:20:21
+ * COM Interface 'ISWbemEventSource'. Generated 21.04.2014 14:38:47
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -13,11 +13,11 @@ package wbemdisp;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -27,16 +27,16 @@ package wbemdisp;
  *   MakeClsidsPublic = False
  *   DontOverwrite = False
  */
-public interface ISWbemEventSource extends java.io.Serializable {
+public interface ISWbemEventSource {
   /**
-   * nextEvent. Retrieve the next event within a specified time period. The timeout is specified in milliseconds.
+   * NextEvent. Retrieve the next event within a specified time period. The timeout is specified in milliseconds.
    *
    * @param     iTimeoutMs The iTimeoutMs (in, optional, pass -1 if not required)
    * @return    A reference to a wbemdisp.ISWbemObject
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemObject nextEvent  (
+  public wbemdisp.ISWbemObject NextEvent  (
               int iTimeoutMs) throws java.io.IOException, com.linar.jintegra.AutomationException;
 
   /**
@@ -56,6 +56,6 @@ public interface ISWbemEventSource extends java.io.Serializable {
   int xxDummy = ISWbemEventSourceProxy.xxDummy;
   /** Used internally by J-Integra for COM, please ignore */
   String IID = "27d54d92-0ebe-11d2-8b22-00600806d9b6";
-  String DISPID_1_NAME = "nextEvent";
+  String DISPID_1_NAME = "NextEvent";
   String DISPID_2_GET_NAME = "getSecurity_";
 }

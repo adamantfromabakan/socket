@@ -2,7 +2,7 @@ package wbemdisp;
 
 import com.linar.jintegra.*;
 /**
- * Proxy for COM Interface 'ISWbemServicesEx'. Generated 18.04.2014 15:20:21
+ * Proxy for COM Interface 'ISWbemServicesEx'. Generated 21.04.2014 14:38:48
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -14,11 +14,11 @@ import com.linar.jintegra.*;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -130,7 +130,7 @@ public class ISWbemServicesExProxy extends wbemdisp.ISWbemServicesProxy implemen
   }
 
   /**
-   * put. Save the Object to this Namespace
+   * Put. Save the Object to this Namespace
    *
    * @param     objWbemObject A reference to a wbemdisp.ISWbemObjectEx (in)
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
@@ -139,18 +139,18 @@ public class ISWbemServicesExProxy extends wbemdisp.ISWbemServicesProxy implemen
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemObjectPath put  (
+  public wbemdisp.ISWbemObjectPath Put  (
               wbemdisp.ISWbemObjectEx objWbemObject,
               int iFlags,
               Object objWbemNamedValueSet) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemObjectPath zz_retVal[] = { null };
-    Object zz_parameters[] = { objWbemObject, new Integer(iFlags), objWbemNamedValueSet, zz_retVal };
-    vtblInvoke("put", 26, zz_parameters);
-    return (wbemdisp.ISWbemObjectPath)zz_retVal[0];
+    wbemdisp.ISWbemObjectPath ав=retVal[] = { null };
+    Object ав=parameters[] = { objWbemObject, new Integer(iFlags), objWbemNamedValueSet, ав=retVal };
+    vtblInvoke("Put", 26, ав=parameters);
+    return (wbemdisp.ISWbemObjectPath)ав=retVal[0];
   }
 
   /**
-   * putAsync. Save the Object to this Namespace asynchronously
+   * PutAsync. Save the Object to this Namespace asynchronously
    *
    * @param     objWbemSink A reference to a wbemdisp.ISWbemSink (in)
    * @param     objWbemObject A reference to a wbemdisp.ISWbemObjectEx (in)
@@ -160,15 +160,15 @@ public class ISWbemServicesExProxy extends wbemdisp.ISWbemServicesProxy implemen
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void putAsync  (
+  public void PutAsync  (
               wbemdisp.ISWbemSink objWbemSink,
               wbemdisp.ISWbemObjectEx objWbemObject,
               int iFlags,
               Object objWbemNamedValueSet,
               Object objWbemAsyncContext) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { objWbemSink, objWbemObject, new Integer(iFlags), objWbemNamedValueSet, objWbemAsyncContext, zz_retVal };
-    vtblInvoke("putAsync", 27, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { objWbemSink, objWbemObject, new Integer(iFlags), objWbemNamedValueSet, objWbemAsyncContext, ав=retVal };
+    vtblInvoke("PutAsync", 27, ав=parameters);
     return;
   }
 

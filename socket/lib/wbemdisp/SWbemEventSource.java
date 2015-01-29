@@ -3,7 +3,7 @@ package wbemdisp;
 import com.linar.jintegra.*;
 
 /**
- * COM Class 'SWbemEventSource'. Generated 18.04.2014 15:20:21
+ * COM Class 'SWbemEventSource'. Generated 21.04.2014 14:38:46
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -15,11 +15,11 @@ import com.linar.jintegra.*;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -165,17 +165,17 @@ public class SWbemEventSource implements com.linar.jintegra.RemoteObjRef, wbemdi
   }
 
   /**
-   * nextEvent. Retrieve the next event within a specified time period. The timeout is specified in milliseconds.
+   * NextEvent. Retrieve the next event within a specified time period. The timeout is specified in milliseconds.
    *
    * @param     iTimeoutMs The iTimeoutMs (in, optional, pass -1 if not required)
    * @return    A reference to a wbemdisp.ISWbemObject
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemObject nextEvent  (
+  public wbemdisp.ISWbemObject NextEvent  (
               int iTimeoutMs) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      return d_ISWbemEventSourceProxy.nextEvent(iTimeoutMs);
+      return d_ISWbemEventSourceProxy.NextEvent(iTimeoutMs);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;

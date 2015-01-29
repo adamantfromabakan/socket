@@ -2,7 +2,7 @@ package wbemdisp;
 
 import com.linar.jintegra.*;
 /**
- * Proxy for COM Interface 'ISWbemObject'. Generated 18.04.2014 15:20:21
+ * Proxy for COM Interface 'ISWbemObject'. Generated 21.04.2014 14:38:47
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -14,11 +14,11 @@ import com.linar.jintegra.*;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -130,7 +130,7 @@ public class ISWbemObjectProxy extends com.linar.jintegra.Dispatch implements wb
   }
 
   /**
-   * put_. Save this Object
+   * Put_. Save this Object
    *
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
    * @param     objWbemNamedValueSet A reference to another Automation Object (IDispatch) (in, optional, pass IDispatch if not required)
@@ -138,17 +138,17 @@ public class ISWbemObjectProxy extends com.linar.jintegra.Dispatch implements wb
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemObjectPath put_  (
+  public wbemdisp.ISWbemObjectPath Put_  (
               int iFlags,
               Object objWbemNamedValueSet) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemObjectPath zz_retVal[] = { null };
-    Object zz_parameters[] = { new Integer(iFlags), objWbemNamedValueSet, zz_retVal };
-    vtblInvoke("put_", 7, zz_parameters);
-    return (wbemdisp.ISWbemObjectPath)zz_retVal[0];
+    wbemdisp.ISWbemObjectPath ав=retVal[] = { null };
+    Object ав=parameters[] = { new Integer(iFlags), objWbemNamedValueSet, ав=retVal };
+    vtblInvoke("Put_", 7, ав=parameters);
+    return (wbemdisp.ISWbemObjectPath)ав=retVal[0];
   }
 
   /**
-   * putAsync_. Save this Object asynchronously
+   * PutAsync_. Save this Object asynchronously
    *
    * @param     objWbemSink A reference to another Automation Object (IDispatch) (in)
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
@@ -157,36 +157,36 @@ public class ISWbemObjectProxy extends com.linar.jintegra.Dispatch implements wb
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void putAsync_  (
+  public void PutAsync_  (
               Object objWbemSink,
               int iFlags,
               Object objWbemNamedValueSet,
               Object objWbemAsyncContext) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { objWbemSink, new Integer(iFlags), objWbemNamedValueSet, objWbemAsyncContext, zz_retVal };
-    vtblInvoke("putAsync_", 8, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { objWbemSink, new Integer(iFlags), objWbemNamedValueSet, objWbemAsyncContext, ав=retVal };
+    vtblInvoke("PutAsync_", 8, ав=parameters);
     return;
   }
 
   /**
-   * delete_. Delete this Object
+   * Delete_. Delete this Object
    *
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
    * @param     objWbemNamedValueSet A reference to another Automation Object (IDispatch) (in, optional, pass IDispatch if not required)
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void delete_  (
+  public void Delete_  (
               int iFlags,
               Object objWbemNamedValueSet) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { new Integer(iFlags), objWbemNamedValueSet, zz_retVal };
-    vtblInvoke("delete_", 9, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { new Integer(iFlags), objWbemNamedValueSet, ав=retVal };
+    vtblInvoke("Delete_", 9, ав=parameters);
     return;
   }
 
   /**
-   * deleteAsync_. Delete this Object asynchronously
+   * DeleteAsync_. Delete this Object asynchronously
    *
    * @param     objWbemSink A reference to another Automation Object (IDispatch) (in)
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
@@ -195,19 +195,19 @@ public class ISWbemObjectProxy extends com.linar.jintegra.Dispatch implements wb
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void deleteAsync_  (
+  public void DeleteAsync_  (
               Object objWbemSink,
               int iFlags,
               Object objWbemNamedValueSet,
               Object objWbemAsyncContext) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { objWbemSink, new Integer(iFlags), objWbemNamedValueSet, objWbemAsyncContext, zz_retVal };
-    vtblInvoke("deleteAsync_", 10, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { objWbemSink, new Integer(iFlags), objWbemNamedValueSet, objWbemAsyncContext, ав=retVal };
+    vtblInvoke("DeleteAsync_", 10, ав=parameters);
     return;
   }
 
   /**
-   * instances_. Return all instances of this Class
+   * Instances_. Return all instances of this Class
    *
    * @param     iFlags The iFlags (in, optional, pass 16 if not required)
    * @param     objWbemNamedValueSet A reference to another Automation Object (IDispatch) (in, optional, pass IDispatch if not required)
@@ -215,17 +215,17 @@ public class ISWbemObjectProxy extends com.linar.jintegra.Dispatch implements wb
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemObjectSet instances_  (
+  public wbemdisp.ISWbemObjectSet Instances_  (
               int iFlags,
               Object objWbemNamedValueSet) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemObjectSet zz_retVal[] = { null };
-    Object zz_parameters[] = { new Integer(iFlags), objWbemNamedValueSet, zz_retVal };
-    vtblInvoke("instances_", 11, zz_parameters);
-    return (wbemdisp.ISWbemObjectSet)zz_retVal[0];
+    wbemdisp.ISWbemObjectSet ав=retVal[] = { null };
+    Object ав=parameters[] = { new Integer(iFlags), objWbemNamedValueSet, ав=retVal };
+    vtblInvoke("Instances_", 11, ав=parameters);
+    return (wbemdisp.ISWbemObjectSet)ав=retVal[0];
   }
 
   /**
-   * instancesAsync_. Return all instances of this Class asynchronously
+   * InstancesAsync_. Return all instances of this Class asynchronously
    *
    * @param     objWbemSink A reference to another Automation Object (IDispatch) (in)
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
@@ -234,19 +234,19 @@ public class ISWbemObjectProxy extends com.linar.jintegra.Dispatch implements wb
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void instancesAsync_  (
+  public void InstancesAsync_  (
               Object objWbemSink,
               int iFlags,
               Object objWbemNamedValueSet,
               Object objWbemAsyncContext) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { objWbemSink, new Integer(iFlags), objWbemNamedValueSet, objWbemAsyncContext, zz_retVal };
-    vtblInvoke("instancesAsync_", 12, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { objWbemSink, new Integer(iFlags), objWbemNamedValueSet, objWbemAsyncContext, ав=retVal };
+    vtblInvoke("InstancesAsync_", 12, ав=parameters);
     return;
   }
 
   /**
-   * subclasses_. Enumerate subclasses of this Class
+   * Subclasses_. Enumerate subclasses of this Class
    *
    * @param     iFlags The iFlags (in, optional, pass 16 if not required)
    * @param     objWbemNamedValueSet A reference to another Automation Object (IDispatch) (in, optional, pass IDispatch if not required)
@@ -254,17 +254,17 @@ public class ISWbemObjectProxy extends com.linar.jintegra.Dispatch implements wb
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemObjectSet subclasses_  (
+  public wbemdisp.ISWbemObjectSet Subclasses_  (
               int iFlags,
               Object objWbemNamedValueSet) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemObjectSet zz_retVal[] = { null };
-    Object zz_parameters[] = { new Integer(iFlags), objWbemNamedValueSet, zz_retVal };
-    vtblInvoke("subclasses_", 13, zz_parameters);
-    return (wbemdisp.ISWbemObjectSet)zz_retVal[0];
+    wbemdisp.ISWbemObjectSet ав=retVal[] = { null };
+    Object ав=parameters[] = { new Integer(iFlags), objWbemNamedValueSet, ав=retVal };
+    vtblInvoke("Subclasses_", 13, ав=parameters);
+    return (wbemdisp.ISWbemObjectSet)ав=retVal[0];
   }
 
   /**
-   * subclassesAsync_. Enumerate subclasses of this Class asynchronously
+   * SubclassesAsync_. Enumerate subclasses of this Class asynchronously
    *
    * @param     objWbemSink A reference to another Automation Object (IDispatch) (in)
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
@@ -273,19 +273,19 @@ public class ISWbemObjectProxy extends com.linar.jintegra.Dispatch implements wb
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void subclassesAsync_  (
+  public void SubclassesAsync_  (
               Object objWbemSink,
               int iFlags,
               Object objWbemNamedValueSet,
               Object objWbemAsyncContext) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { objWbemSink, new Integer(iFlags), objWbemNamedValueSet, objWbemAsyncContext, zz_retVal };
-    vtblInvoke("subclassesAsync_", 14, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { objWbemSink, new Integer(iFlags), objWbemNamedValueSet, objWbemAsyncContext, ав=retVal };
+    vtblInvoke("SubclassesAsync_", 14, ав=parameters);
     return;
   }
 
   /**
-   * associators_. Get the Associators of this Object
+   * Associators_. Get the Associators of this Object
    *
    * @param     strAssocClass The strAssocClass (in, optional, pass  if not required)
    * @param     strResultClass The strResultClass (in, optional, pass  if not required)
@@ -301,7 +301,7 @@ public class ISWbemObjectProxy extends com.linar.jintegra.Dispatch implements wb
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemObjectSet associators_  (
+  public wbemdisp.ISWbemObjectSet Associators_  (
               String strAssocClass,
               String strResultClass,
               String strResultRole,
@@ -312,14 +312,14 @@ public class ISWbemObjectProxy extends com.linar.jintegra.Dispatch implements wb
               String strRequiredQualifier,
               int iFlags,
               Object objWbemNamedValueSet) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemObjectSet zz_retVal[] = { null };
-    Object zz_parameters[] = { strAssocClass, strResultClass, strResultRole, strRole, new Boolean(bClassesOnly), new Boolean(bSchemaOnly), strRequiredAssocQualifier, strRequiredQualifier, new Integer(iFlags), objWbemNamedValueSet, zz_retVal };
-    vtblInvoke("associators_", 15, zz_parameters);
-    return (wbemdisp.ISWbemObjectSet)zz_retVal[0];
+    wbemdisp.ISWbemObjectSet ав=retVal[] = { null };
+    Object ав=parameters[] = { strAssocClass, strResultClass, strResultRole, strRole, new Boolean(bClassesOnly), new Boolean(bSchemaOnly), strRequiredAssocQualifier, strRequiredQualifier, new Integer(iFlags), objWbemNamedValueSet, ав=retVal };
+    vtblInvoke("Associators_", 15, ав=parameters);
+    return (wbemdisp.ISWbemObjectSet)ав=retVal[0];
   }
 
   /**
-   * associatorsAsync_. Get the Associators of this Object asynchronously
+   * AssociatorsAsync_. Get the Associators of this Object asynchronously
    *
    * @param     objWbemSink A reference to another Automation Object (IDispatch) (in)
    * @param     strAssocClass The strAssocClass (in, optional, pass  if not required)
@@ -336,7 +336,7 @@ public class ISWbemObjectProxy extends com.linar.jintegra.Dispatch implements wb
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void associatorsAsync_  (
+  public void AssociatorsAsync_  (
               Object objWbemSink,
               String strAssocClass,
               String strResultClass,
@@ -349,14 +349,14 @@ public class ISWbemObjectProxy extends com.linar.jintegra.Dispatch implements wb
               int iFlags,
               Object objWbemNamedValueSet,
               Object objWbemAsyncContext) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { objWbemSink, strAssocClass, strResultClass, strResultRole, strRole, new Boolean(bClassesOnly), new Boolean(bSchemaOnly), strRequiredAssocQualifier, strRequiredQualifier, new Integer(iFlags), objWbemNamedValueSet, objWbemAsyncContext, zz_retVal };
-    vtblInvoke("associatorsAsync_", 16, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { objWbemSink, strAssocClass, strResultClass, strResultRole, strRole, new Boolean(bClassesOnly), new Boolean(bSchemaOnly), strRequiredAssocQualifier, strRequiredQualifier, new Integer(iFlags), objWbemNamedValueSet, objWbemAsyncContext, ав=retVal };
+    vtblInvoke("AssociatorsAsync_", 16, ав=parameters);
     return;
   }
 
   /**
-   * references_. Get the References to this Object
+   * References_. Get the References to this Object
    *
    * @param     strResultClass The strResultClass (in, optional, pass  if not required)
    * @param     strRole The strRole (in, optional, pass  if not required)
@@ -369,7 +369,7 @@ public class ISWbemObjectProxy extends com.linar.jintegra.Dispatch implements wb
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemObjectSet references_  (
+  public wbemdisp.ISWbemObjectSet References_  (
               String strResultClass,
               String strRole,
               boolean bClassesOnly,
@@ -377,14 +377,14 @@ public class ISWbemObjectProxy extends com.linar.jintegra.Dispatch implements wb
               String strRequiredQualifier,
               int iFlags,
               Object objWbemNamedValueSet) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemObjectSet zz_retVal[] = { null };
-    Object zz_parameters[] = { strResultClass, strRole, new Boolean(bClassesOnly), new Boolean(bSchemaOnly), strRequiredQualifier, new Integer(iFlags), objWbemNamedValueSet, zz_retVal };
-    vtblInvoke("references_", 17, zz_parameters);
-    return (wbemdisp.ISWbemObjectSet)zz_retVal[0];
+    wbemdisp.ISWbemObjectSet ав=retVal[] = { null };
+    Object ав=parameters[] = { strResultClass, strRole, new Boolean(bClassesOnly), new Boolean(bSchemaOnly), strRequiredQualifier, new Integer(iFlags), objWbemNamedValueSet, ав=retVal };
+    vtblInvoke("References_", 17, ав=parameters);
+    return (wbemdisp.ISWbemObjectSet)ав=retVal[0];
   }
 
   /**
-   * referencesAsync_. Get the References to this Object asynchronously
+   * ReferencesAsync_. Get the References to this Object asynchronously
    *
    * @param     objWbemSink A reference to another Automation Object (IDispatch) (in)
    * @param     strResultClass The strResultClass (in, optional, pass  if not required)
@@ -398,7 +398,7 @@ public class ISWbemObjectProxy extends com.linar.jintegra.Dispatch implements wb
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void referencesAsync_  (
+  public void ReferencesAsync_  (
               Object objWbemSink,
               String strResultClass,
               String strRole,
@@ -408,14 +408,14 @@ public class ISWbemObjectProxy extends com.linar.jintegra.Dispatch implements wb
               int iFlags,
               Object objWbemNamedValueSet,
               Object objWbemAsyncContext) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { objWbemSink, strResultClass, strRole, new Boolean(bClassesOnly), new Boolean(bSchemaOnly), strRequiredQualifier, new Integer(iFlags), objWbemNamedValueSet, objWbemAsyncContext, zz_retVal };
-    vtblInvoke("referencesAsync_", 18, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { objWbemSink, strResultClass, strRole, new Boolean(bClassesOnly), new Boolean(bSchemaOnly), strRequiredQualifier, new Integer(iFlags), objWbemNamedValueSet, objWbemAsyncContext, ав=retVal };
+    vtblInvoke("ReferencesAsync_", 18, ав=parameters);
     return;
   }
 
   /**
-   * execMethod_. Execute a Method of this Object
+   * ExecMethod_. Execute a Method of this Object
    *
    * @param     strMethodName The strMethodName (in)
    * @param     objWbemInParameters A reference to another Automation Object (IDispatch) (in, optional, pass IDispatch if not required)
@@ -425,19 +425,19 @@ public class ISWbemObjectProxy extends com.linar.jintegra.Dispatch implements wb
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemObject execMethod_  (
+  public wbemdisp.ISWbemObject ExecMethod_  (
               String strMethodName,
               Object objWbemInParameters,
               int iFlags,
               Object objWbemNamedValueSet) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemObject zz_retVal[] = { null };
-    Object zz_parameters[] = { strMethodName, objWbemInParameters, new Integer(iFlags), objWbemNamedValueSet, zz_retVal };
-    vtblInvoke("execMethod_", 19, zz_parameters);
-    return (wbemdisp.ISWbemObject)zz_retVal[0];
+    wbemdisp.ISWbemObject ав=retVal[] = { null };
+    Object ав=parameters[] = { strMethodName, objWbemInParameters, new Integer(iFlags), objWbemNamedValueSet, ав=retVal };
+    vtblInvoke("ExecMethod_", 19, ав=parameters);
+    return (wbemdisp.ISWbemObject)ав=retVal[0];
   }
 
   /**
-   * execMethodAsync_. Execute a Method of this Object asynchronously
+   * ExecMethodAsync_. Execute a Method of this Object asynchronously
    *
    * @param     objWbemSink A reference to another Automation Object (IDispatch) (in)
    * @param     strMethodName The strMethodName (in)
@@ -448,83 +448,83 @@ public class ISWbemObjectProxy extends com.linar.jintegra.Dispatch implements wb
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void execMethodAsync_  (
+  public void ExecMethodAsync_  (
               Object objWbemSink,
               String strMethodName,
               Object objWbemInParameters,
               int iFlags,
               Object objWbemNamedValueSet,
               Object objWbemAsyncContext) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { objWbemSink, strMethodName, objWbemInParameters, new Integer(iFlags), objWbemNamedValueSet, objWbemAsyncContext, zz_retVal };
-    vtblInvoke("execMethodAsync_", 20, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { objWbemSink, strMethodName, objWbemInParameters, new Integer(iFlags), objWbemNamedValueSet, objWbemAsyncContext, ав=retVal };
+    vtblInvoke("ExecMethodAsync_", 20, ав=parameters);
     return;
   }
 
   /**
-   * clone_. Clone this Object
+   * Clone_. Clone this Object
    *
    * @return    A reference to a wbemdisp.ISWbemObject
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemObject clone_  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemObject zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("clone_", 21, zz_parameters);
-    return (wbemdisp.ISWbemObject)zz_retVal[0];
+  public wbemdisp.ISWbemObject Clone_  () throws java.io.IOException, com.linar.jintegra.AutomationException{
+    wbemdisp.ISWbemObject ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("Clone_", 21, ав=parameters);
+    return (wbemdisp.ISWbemObject)ав=retVal[0];
   }
 
   /**
-   * getObjectText_. Get the MOF text of this Object
+   * GetObjectText_. Get the MOF text of this Object
    *
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
    * @return    The strObjectText
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public String getObjectText_  (
+  public String GetObjectText_  (
               int iFlags) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    String zz_retVal[] = { null };
-    Object zz_parameters[] = { new Integer(iFlags), zz_retVal };
-    vtblInvoke("getObjectText_", 22, zz_parameters);
-    return (String)zz_retVal[0];
+    String ав=retVal[] = { null };
+    Object ав=parameters[] = { new Integer(iFlags), ав=retVal };
+    vtblInvoke("GetObjectText_", 22, ав=parameters);
+    return (String)ав=retVal[0];
   }
 
   /**
-   * spawnDerivedClass_. Create a subclass of this Object
+   * SpawnDerivedClass_. Create a subclass of this Object
    *
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
    * @return    A reference to a wbemdisp.ISWbemObject
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemObject spawnDerivedClass_  (
+  public wbemdisp.ISWbemObject SpawnDerivedClass_  (
               int iFlags) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemObject zz_retVal[] = { null };
-    Object zz_parameters[] = { new Integer(iFlags), zz_retVal };
-    vtblInvoke("spawnDerivedClass_", 23, zz_parameters);
-    return (wbemdisp.ISWbemObject)zz_retVal[0];
+    wbemdisp.ISWbemObject ав=retVal[] = { null };
+    Object ав=parameters[] = { new Integer(iFlags), ав=retVal };
+    vtblInvoke("SpawnDerivedClass_", 23, ав=parameters);
+    return (wbemdisp.ISWbemObject)ав=retVal[0];
   }
 
   /**
-   * spawnInstance_. Create an Instance of this Object
+   * SpawnInstance_. Create an Instance of this Object
    *
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
    * @return    A reference to a wbemdisp.ISWbemObject
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemObject spawnInstance_  (
+  public wbemdisp.ISWbemObject SpawnInstance_  (
               int iFlags) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemObject zz_retVal[] = { null };
-    Object zz_parameters[] = { new Integer(iFlags), zz_retVal };
-    vtblInvoke("spawnInstance_", 24, zz_parameters);
-    return (wbemdisp.ISWbemObject)zz_retVal[0];
+    wbemdisp.ISWbemObject ав=retVal[] = { null };
+    Object ав=parameters[] = { new Integer(iFlags), ав=retVal };
+    vtblInvoke("SpawnInstance_", 24, ав=parameters);
+    return (wbemdisp.ISWbemObject)ав=retVal[0];
   }
 
   /**
-   * compareTo_. Compare this Object with another
+   * CompareTo_. Compare this Object with another
    *
    * @param     objWbemObject A reference to another Automation Object (IDispatch) (in)
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
@@ -532,13 +532,13 @@ public class ISWbemObjectProxy extends com.linar.jintegra.Dispatch implements wb
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public boolean compareTo_  (
+  public boolean CompareTo_  (
               Object objWbemObject,
               int iFlags) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    boolean zz_retVal[] = { false };
-    Object zz_parameters[] = { objWbemObject, new Integer(iFlags), zz_retVal };
-    vtblInvoke("compareTo_", 25, zz_parameters);
-    return zz_retVal[0];
+    boolean ав=retVal[] = { false };
+    Object ав=parameters[] = { objWbemObject, new Integer(iFlags), ав=retVal };
+    vtblInvoke("CompareTo_", 25, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
@@ -549,10 +549,10 @@ public class ISWbemObjectProxy extends com.linar.jintegra.Dispatch implements wb
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public wbemdisp.ISWbemQualifierSet getQualifiers_  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemQualifierSet zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getQualifiers_", 26, zz_parameters);
-    return (wbemdisp.ISWbemQualifierSet)zz_retVal[0];
+    wbemdisp.ISWbemQualifierSet ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getQualifiers_", 26, ав=parameters);
+    return (wbemdisp.ISWbemQualifierSet)ав=retVal[0];
   }
 
   /**
@@ -563,10 +563,10 @@ public class ISWbemObjectProxy extends com.linar.jintegra.Dispatch implements wb
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public wbemdisp.ISWbemPropertySet getProperties_  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemPropertySet zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getProperties_", 27, zz_parameters);
-    return (wbemdisp.ISWbemPropertySet)zz_retVal[0];
+    wbemdisp.ISWbemPropertySet ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getProperties_", 27, ав=parameters);
+    return (wbemdisp.ISWbemPropertySet)ав=retVal[0];
   }
 
   /**
@@ -577,10 +577,10 @@ public class ISWbemObjectProxy extends com.linar.jintegra.Dispatch implements wb
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public wbemdisp.ISWbemMethodSet getMethods_  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemMethodSet zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getMethods_", 28, zz_parameters);
-    return (wbemdisp.ISWbemMethodSet)zz_retVal[0];
+    wbemdisp.ISWbemMethodSet ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getMethods_", 28, ав=parameters);
+    return (wbemdisp.ISWbemMethodSet)ав=retVal[0];
   }
 
   /**
@@ -591,10 +591,10 @@ public class ISWbemObjectProxy extends com.linar.jintegra.Dispatch implements wb
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public Object getDerivation_  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getDerivation_", 29, zz_parameters);
-    return (Object)zz_retVal[0];
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getDerivation_", 29, ав=parameters);
+    return (Object)ав=retVal[0];
   }
 
   /**
@@ -605,10 +605,10 @@ public class ISWbemObjectProxy extends com.linar.jintegra.Dispatch implements wb
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public wbemdisp.ISWbemObjectPath getPath_  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemObjectPath zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getPath_", 30, zz_parameters);
-    return (wbemdisp.ISWbemObjectPath)zz_retVal[0];
+    wbemdisp.ISWbemObjectPath ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getPath_", 30, ав=parameters);
+    return (wbemdisp.ISWbemObjectPath)ав=retVal[0];
   }
 
   /**
@@ -619,10 +619,10 @@ public class ISWbemObjectProxy extends com.linar.jintegra.Dispatch implements wb
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public wbemdisp.ISWbemSecurity getSecurity_  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemSecurity zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getSecurity_", 31, zz_parameters);
-    return (wbemdisp.ISWbemSecurity)zz_retVal[0];
+    wbemdisp.ISWbemSecurity ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getSecurity_", 31, ав=parameters);
+    return (wbemdisp.ISWbemSecurity)ав=retVal[0];
   }
 
   /** Dummy reference from interface to proxy to make sure proxy gets compiled */

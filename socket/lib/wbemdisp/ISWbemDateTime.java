@@ -1,7 +1,7 @@
 package wbemdisp;
 
 /**
- * COM Interface 'ISWbemDateTime'. Generated 18.04.2014 15:20:22
+ * COM Interface 'ISWbemDateTime'. Generated 21.04.2014 14:38:48
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -13,11 +13,11 @@ package wbemdisp;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -27,7 +27,7 @@ package wbemdisp;
  *   MakeClsidsPublic = False
  *   DontOverwrite = False
  */
-public interface ISWbemDateTime extends java.io.Serializable {
+public interface ISWbemDateTime {
   /**
    * getValue. The DMTF datetime
    *
@@ -371,48 +371,48 @@ public interface ISWbemDateTime extends java.io.Serializable {
               boolean bIsInterval) throws java.io.IOException, com.linar.jintegra.AutomationException;
 
   /**
-   * getVarDate. Retrieve value in Variant compatible (VT_DATE) format
+   * GetVarDate. Retrieve value in Variant compatible (VT_DATE) format
    *
    * @param     bIsLocal The bIsLocal (in, optional, pass true if not required)
    * @return    The dVarDate
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public java.util.Date getVarDate  (
+  public java.util.Date GetVarDate  (
               boolean bIsLocal) throws java.io.IOException, com.linar.jintegra.AutomationException;
 
   /**
-   * setVarDate. Set the value using Variant compatible (VT_DATE) format
+   * SetVarDate. Set the value using Variant compatible (VT_DATE) format
    *
    * @param     dVarDate The dVarDate (in)
    * @param     bIsLocal The bIsLocal (in, optional, pass true if not required)
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void setVarDate  (
+  public void SetVarDate  (
               java.util.Date dVarDate,
               boolean bIsLocal) throws java.io.IOException, com.linar.jintegra.AutomationException;
 
   /**
-   * getFileTime. Retrieve value in FILETIME compatible string representation
+   * GetFileTime. Retrieve value in FILETIME compatible string representation
    *
    * @param     bIsLocal The bIsLocal (in, optional, pass true if not required)
    * @return    The strFileTime
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public String getFileTime  (
+  public String GetFileTime  (
               boolean bIsLocal) throws java.io.IOException, com.linar.jintegra.AutomationException;
 
   /**
-   * setFileTime. Set the value using FILETIME compatible string representation
+   * SetFileTime. Set the value using FILETIME compatible string representation
    *
    * @param     strFileTime The strFileTime (in)
    * @param     bIsLocal The bIsLocal (in, optional, pass true if not required)
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void setFileTime  (
+  public void SetFileTime  (
               String strFileTime,
               boolean bIsLocal) throws java.io.IOException, com.linar.jintegra.AutomationException;
 
@@ -460,8 +460,8 @@ public interface ISWbemDateTime extends java.io.Serializable {
   String DISPID_16_PUT_NAME = "setUTCSpecified";
   String DISPID_17_GET_NAME = "isInterval";
   String DISPID_17_PUT_NAME = "setIsInterval";
-  String DISPID_18_NAME = "getVarDate";
-  String DISPID_19_NAME = "setVarDate";
-  String DISPID_20_NAME = "getFileTime";
-  String DISPID_21_NAME = "setFileTime";
+  String DISPID_18_NAME = "GetVarDate";
+  String DISPID_19_NAME = "SetVarDate";
+  String DISPID_20_NAME = "GetFileTime";
+  String DISPID_21_NAME = "SetFileTime";
 }

@@ -2,7 +2,7 @@ package wbemdisp;
 
 import com.linar.jintegra.*;
 /**
- * Proxy for COM Interface 'ISWbemDateTime'. Generated 18.04.2014 15:20:22
+ * Proxy for COM Interface 'ISWbemDateTime'. Generated 21.04.2014 14:38:48
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -14,11 +14,11 @@ import com.linar.jintegra.*;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -137,10 +137,10 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public String getValue  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    String zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getValue", 7, zz_parameters);
-    return (String)zz_retVal[0];
+    String ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getValue", 7, ав=parameters);
+    return (String)ав=retVal[0];
   }
 
   /**
@@ -152,9 +152,9 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    */
   public void setValue  (
               String strValue) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { strValue, zz_retVal };
-    vtblInvoke("setValue", 8, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { strValue, ав=retVal };
+    vtblInvoke("setValue", 8, ав=parameters);
     return;
   }
 
@@ -166,10 +166,10 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public int getYear  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    int zz_retVal[] = { 0 };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getYear", 9, zz_parameters);
-    return zz_retVal[0];
+    int ав=retVal[] = { 0 };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getYear", 9, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
@@ -181,9 +181,9 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    */
   public void setYear  (
               int iYear) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { new Integer(iYear), zz_retVal };
-    vtblInvoke("setYear", 10, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { new Integer(iYear), ав=retVal };
+    vtblInvoke("setYear", 10, ав=parameters);
     return;
   }
 
@@ -195,10 +195,10 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public boolean isYearSpecified  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    boolean zz_retVal[] = { false };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("isYearSpecified", 11, zz_parameters);
-    return zz_retVal[0];
+    boolean ав=retVal[] = { false };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("isYearSpecified", 11, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
@@ -210,9 +210,9 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    */
   public void setYearSpecified  (
               boolean bYearSpecified) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { new Boolean(bYearSpecified), zz_retVal };
-    vtblInvoke("setYearSpecified", 12, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { new Boolean(bYearSpecified), ав=retVal };
+    vtblInvoke("setYearSpecified", 12, ав=parameters);
     return;
   }
 
@@ -224,10 +224,10 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public int getMonth  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    int zz_retVal[] = { 0 };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getMonth", 13, zz_parameters);
-    return zz_retVal[0];
+    int ав=retVal[] = { 0 };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getMonth", 13, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
@@ -239,9 +239,9 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    */
   public void setMonth  (
               int iMonth) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { new Integer(iMonth), zz_retVal };
-    vtblInvoke("setMonth", 14, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { new Integer(iMonth), ав=retVal };
+    vtblInvoke("setMonth", 14, ав=parameters);
     return;
   }
 
@@ -253,10 +253,10 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public boolean isMonthSpecified  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    boolean zz_retVal[] = { false };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("isMonthSpecified", 15, zz_parameters);
-    return zz_retVal[0];
+    boolean ав=retVal[] = { false };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("isMonthSpecified", 15, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
@@ -268,9 +268,9 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    */
   public void setMonthSpecified  (
               boolean bMonthSpecified) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { new Boolean(bMonthSpecified), zz_retVal };
-    vtblInvoke("setMonthSpecified", 16, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { new Boolean(bMonthSpecified), ав=retVal };
+    vtblInvoke("setMonthSpecified", 16, ав=parameters);
     return;
   }
 
@@ -282,10 +282,10 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public int getDay  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    int zz_retVal[] = { 0 };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getDay", 17, zz_parameters);
-    return zz_retVal[0];
+    int ав=retVal[] = { 0 };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getDay", 17, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
@@ -297,9 +297,9 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    */
   public void setDay  (
               int iDay) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { new Integer(iDay), zz_retVal };
-    vtblInvoke("setDay", 18, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { new Integer(iDay), ав=retVal };
+    vtblInvoke("setDay", 18, ав=parameters);
     return;
   }
 
@@ -311,10 +311,10 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public boolean isDaySpecified  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    boolean zz_retVal[] = { false };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("isDaySpecified", 19, zz_parameters);
-    return zz_retVal[0];
+    boolean ав=retVal[] = { false };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("isDaySpecified", 19, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
@@ -326,9 +326,9 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    */
   public void setDaySpecified  (
               boolean bDaySpecified) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { new Boolean(bDaySpecified), zz_retVal };
-    vtblInvoke("setDaySpecified", 20, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { new Boolean(bDaySpecified), ав=retVal };
+    vtblInvoke("setDaySpecified", 20, ав=parameters);
     return;
   }
 
@@ -340,10 +340,10 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public int getHours  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    int zz_retVal[] = { 0 };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getHours", 21, zz_parameters);
-    return zz_retVal[0];
+    int ав=retVal[] = { 0 };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getHours", 21, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
@@ -355,9 +355,9 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    */
   public void setHours  (
               int iHours) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { new Integer(iHours), zz_retVal };
-    vtblInvoke("setHours", 22, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { new Integer(iHours), ав=retVal };
+    vtblInvoke("setHours", 22, ав=parameters);
     return;
   }
 
@@ -369,10 +369,10 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public boolean isHoursSpecified  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    boolean zz_retVal[] = { false };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("isHoursSpecified", 23, zz_parameters);
-    return zz_retVal[0];
+    boolean ав=retVal[] = { false };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("isHoursSpecified", 23, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
@@ -384,9 +384,9 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    */
   public void setHoursSpecified  (
               boolean bHoursSpecified) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { new Boolean(bHoursSpecified), zz_retVal };
-    vtblInvoke("setHoursSpecified", 24, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { new Boolean(bHoursSpecified), ав=retVal };
+    vtblInvoke("setHoursSpecified", 24, ав=parameters);
     return;
   }
 
@@ -398,10 +398,10 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public int getMinutes  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    int zz_retVal[] = { 0 };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getMinutes", 25, zz_parameters);
-    return zz_retVal[0];
+    int ав=retVal[] = { 0 };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getMinutes", 25, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
@@ -413,9 +413,9 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    */
   public void setMinutes  (
               int iMinutes) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { new Integer(iMinutes), zz_retVal };
-    vtblInvoke("setMinutes", 26, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { new Integer(iMinutes), ав=retVal };
+    vtblInvoke("setMinutes", 26, ав=parameters);
     return;
   }
 
@@ -427,10 +427,10 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public boolean isMinutesSpecified  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    boolean zz_retVal[] = { false };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("isMinutesSpecified", 27, zz_parameters);
-    return zz_retVal[0];
+    boolean ав=retVal[] = { false };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("isMinutesSpecified", 27, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
@@ -442,9 +442,9 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    */
   public void setMinutesSpecified  (
               boolean bMinutesSpecified) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { new Boolean(bMinutesSpecified), zz_retVal };
-    vtblInvoke("setMinutesSpecified", 28, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { new Boolean(bMinutesSpecified), ав=retVal };
+    vtblInvoke("setMinutesSpecified", 28, ав=parameters);
     return;
   }
 
@@ -456,10 +456,10 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public int getSeconds  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    int zz_retVal[] = { 0 };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getSeconds", 29, zz_parameters);
-    return zz_retVal[0];
+    int ав=retVal[] = { 0 };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getSeconds", 29, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
@@ -471,9 +471,9 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    */
   public void setSeconds  (
               int iSeconds) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { new Integer(iSeconds), zz_retVal };
-    vtblInvoke("setSeconds", 30, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { new Integer(iSeconds), ав=retVal };
+    vtblInvoke("setSeconds", 30, ав=parameters);
     return;
   }
 
@@ -485,10 +485,10 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public boolean isSecondsSpecified  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    boolean zz_retVal[] = { false };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("isSecondsSpecified", 31, zz_parameters);
-    return zz_retVal[0];
+    boolean ав=retVal[] = { false };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("isSecondsSpecified", 31, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
@@ -500,9 +500,9 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    */
   public void setSecondsSpecified  (
               boolean bSecondsSpecified) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { new Boolean(bSecondsSpecified), zz_retVal };
-    vtblInvoke("setSecondsSpecified", 32, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { new Boolean(bSecondsSpecified), ав=retVal };
+    vtblInvoke("setSecondsSpecified", 32, ав=parameters);
     return;
   }
 
@@ -514,10 +514,10 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public int getMicroseconds  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    int zz_retVal[] = { 0 };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getMicroseconds", 33, zz_parameters);
-    return zz_retVal[0];
+    int ав=retVal[] = { 0 };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getMicroseconds", 33, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
@@ -529,9 +529,9 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    */
   public void setMicroseconds  (
               int iMicroseconds) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { new Integer(iMicroseconds), zz_retVal };
-    vtblInvoke("setMicroseconds", 34, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { new Integer(iMicroseconds), ав=retVal };
+    vtblInvoke("setMicroseconds", 34, ав=parameters);
     return;
   }
 
@@ -543,10 +543,10 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public boolean isMicrosecondsSpecified  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    boolean zz_retVal[] = { false };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("isMicrosecondsSpecified", 35, zz_parameters);
-    return zz_retVal[0];
+    boolean ав=retVal[] = { false };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("isMicrosecondsSpecified", 35, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
@@ -558,9 +558,9 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    */
   public void setMicrosecondsSpecified  (
               boolean bMicrosecondsSpecified) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { new Boolean(bMicrosecondsSpecified), zz_retVal };
-    vtblInvoke("setMicrosecondsSpecified", 36, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { new Boolean(bMicrosecondsSpecified), ав=retVal };
+    vtblInvoke("setMicrosecondsSpecified", 36, ав=parameters);
     return;
   }
 
@@ -572,10 +572,10 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public int getUTC  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    int zz_retVal[] = { 0 };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getUTC", 37, zz_parameters);
-    return zz_retVal[0];
+    int ав=retVal[] = { 0 };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getUTC", 37, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
@@ -587,9 +587,9 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    */
   public void setUTC  (
               int iUTC) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { new Integer(iUTC), zz_retVal };
-    vtblInvoke("setUTC", 38, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { new Integer(iUTC), ав=retVal };
+    vtblInvoke("setUTC", 38, ав=parameters);
     return;
   }
 
@@ -601,10 +601,10 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public boolean isUTCSpecified  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    boolean zz_retVal[] = { false };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("isUTCSpecified", 39, zz_parameters);
-    return zz_retVal[0];
+    boolean ав=retVal[] = { false };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("isUTCSpecified", 39, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
@@ -616,9 +616,9 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    */
   public void setUTCSpecified  (
               boolean bUTCSpecified) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { new Boolean(bUTCSpecified), zz_retVal };
-    vtblInvoke("setUTCSpecified", 40, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { new Boolean(bUTCSpecified), ав=retVal };
+    vtblInvoke("setUTCSpecified", 40, ав=parameters);
     return;
   }
 
@@ -630,10 +630,10 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public boolean isInterval  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    boolean zz_retVal[] = { false };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("isInterval", 41, zz_parameters);
-    return zz_retVal[0];
+    boolean ав=retVal[] = { false };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("isInterval", 41, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
@@ -645,75 +645,75 @@ public class ISWbemDateTimeProxy extends com.linar.jintegra.Dispatch implements 
    */
   public void setIsInterval  (
               boolean bIsInterval) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { new Boolean(bIsInterval), zz_retVal };
-    vtblInvoke("setIsInterval", 42, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { new Boolean(bIsInterval), ав=retVal };
+    vtblInvoke("setIsInterval", 42, ав=parameters);
     return;
   }
 
   /**
-   * getVarDate. Retrieve value in Variant compatible (VT_DATE) format
+   * GetVarDate. Retrieve value in Variant compatible (VT_DATE) format
    *
    * @param     bIsLocal The bIsLocal (in, optional, pass true if not required)
    * @return    The dVarDate
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public java.util.Date getVarDate  (
+  public java.util.Date GetVarDate  (
               boolean bIsLocal) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    java.util.Date zz_retVal[] = { null };
-    Object zz_parameters[] = { new Boolean(bIsLocal), zz_retVal };
-    vtblInvoke("getVarDate", 43, zz_parameters);
-    return (java.util.Date)zz_retVal[0];
+    java.util.Date ав=retVal[] = { null };
+    Object ав=parameters[] = { new Boolean(bIsLocal), ав=retVal };
+    vtblInvoke("GetVarDate", 43, ав=parameters);
+    return (java.util.Date)ав=retVal[0];
   }
 
   /**
-   * setVarDate. Set the value using Variant compatible (VT_DATE) format
+   * SetVarDate. Set the value using Variant compatible (VT_DATE) format
    *
    * @param     dVarDate The dVarDate (in)
    * @param     bIsLocal The bIsLocal (in, optional, pass true if not required)
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void setVarDate  (
+  public void SetVarDate  (
               java.util.Date dVarDate,
               boolean bIsLocal) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { dVarDate, new Boolean(bIsLocal), zz_retVal };
-    vtblInvoke("setVarDate", 44, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { dVarDate, new Boolean(bIsLocal), ав=retVal };
+    vtblInvoke("SetVarDate", 44, ав=parameters);
     return;
   }
 
   /**
-   * getFileTime. Retrieve value in FILETIME compatible string representation
+   * GetFileTime. Retrieve value in FILETIME compatible string representation
    *
    * @param     bIsLocal The bIsLocal (in, optional, pass true if not required)
    * @return    The strFileTime
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public String getFileTime  (
+  public String GetFileTime  (
               boolean bIsLocal) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    String zz_retVal[] = { null };
-    Object zz_parameters[] = { new Boolean(bIsLocal), zz_retVal };
-    vtblInvoke("getFileTime", 45, zz_parameters);
-    return (String)zz_retVal[0];
+    String ав=retVal[] = { null };
+    Object ав=parameters[] = { new Boolean(bIsLocal), ав=retVal };
+    vtblInvoke("GetFileTime", 45, ав=parameters);
+    return (String)ав=retVal[0];
   }
 
   /**
-   * setFileTime. Set the value using FILETIME compatible string representation
+   * SetFileTime. Set the value using FILETIME compatible string representation
    *
    * @param     strFileTime The strFileTime (in)
    * @param     bIsLocal The bIsLocal (in, optional, pass true if not required)
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void setFileTime  (
+  public void SetFileTime  (
               String strFileTime,
               boolean bIsLocal) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { strFileTime, new Boolean(bIsLocal), zz_retVal };
-    vtblInvoke("setFileTime", 46, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { strFileTime, new Boolean(bIsLocal), ав=retVal };
+    vtblInvoke("SetFileTime", 46, ав=parameters);
     return;
   }
 

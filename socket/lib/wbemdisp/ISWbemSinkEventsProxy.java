@@ -2,7 +2,7 @@ package wbemdisp;
 
 import com.linar.jintegra.*;
 /**
- * Proxy for COM Interface 'ISWbemSinkEvents'. Generated 18.04.2014 15:20:21
+ * Proxy for COM Interface 'ISWbemSinkEvents'. Generated 21.04.2014 14:38:48
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -14,11 +14,11 @@ import com.linar.jintegra.*;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -130,61 +130,61 @@ public class ISWbemSinkEventsProxy extends com.linar.jintegra.Dispatch implement
   }
 
   /**
-   * onObjectReady. Event triggered when an Object is available
+   * OnObjectReady. Event triggered when an Object is available
    *
    * @param     theEvent The event
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void onObjectReady  (wbemdisp.ISWbemSinkEventsOnObjectReadyEvent theEvent) throws java.io.IOException, com.linar.jintegra.AutomationException{
+  public void OnObjectReady  (wbemdisp.ISWbemSinkEventsOnObjectReadyEvent theEvent) throws java.io.IOException, com.linar.jintegra.AutomationException{
     com.linar.jintegra.Variant[] parameters = {new Variant("theEvent.objWbemObject", 9, theEvent.objWbemObject),
                                          new Variant("theEvent.objWbemAsyncContext", 9, theEvent.objWbemAsyncContext),};
-    invoke("onObjectReady", 1, 1, parameters);
+    invoke("OnObjectReady", 1, 1, parameters);
     return;
   }
 
   /**
-   * onCompleted. Event triggered when an asynchronous operation is completed
+   * OnCompleted. Event triggered when an asynchronous operation is completed
    *
    * @param     theEvent The event
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void onCompleted  (wbemdisp.ISWbemSinkEventsOnCompletedEvent theEvent) throws java.io.IOException, com.linar.jintegra.AutomationException{
+  public void OnCompleted  (wbemdisp.ISWbemSinkEventsOnCompletedEvent theEvent) throws java.io.IOException, com.linar.jintegra.AutomationException{
     com.linar.jintegra.Variant[] parameters = {new Variant("theEvent.iHResult", 3, theEvent.iHResult),
                                          new Variant("theEvent.objWbemErrorObject", 9, theEvent.objWbemErrorObject),
                                          new Variant("theEvent.objWbemAsyncContext", 9, theEvent.objWbemAsyncContext),};
-    invoke("onCompleted", 2, 1, parameters);
+    invoke("OnCompleted", 2, 1, parameters);
     return;
   }
 
   /**
-   * onProgress. Event triggered to report the progress of an asynchronous operation
+   * OnProgress. Event triggered to report the progress of an asynchronous operation
    *
    * @param     theEvent The event
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void onProgress  (wbemdisp.ISWbemSinkEventsOnProgressEvent theEvent) throws java.io.IOException, com.linar.jintegra.AutomationException{
+  public void OnProgress  (wbemdisp.ISWbemSinkEventsOnProgressEvent theEvent) throws java.io.IOException, com.linar.jintegra.AutomationException{
     com.linar.jintegra.Variant[] parameters = {new Variant("theEvent.iUpperBound", 3, theEvent.iUpperBound),
                                          new Variant("theEvent.iCurrent", 3, theEvent.iCurrent),
                                          new Variant("theEvent.strMessage", 8, theEvent.strMessage),
                                          new Variant("theEvent.objWbemAsyncContext", 9, theEvent.objWbemAsyncContext),};
-    invoke("onProgress", 3, 1, parameters);
+    invoke("OnProgress", 3, 1, parameters);
     return;
   }
 
   /**
-   * onObjectPut. Event triggered when an object path is available following a Put operation
+   * OnObjectPut. Event triggered when an object path is available following a Put operation
    *
    * @param     theEvent The event
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void onObjectPut  (wbemdisp.ISWbemSinkEventsOnObjectPutEvent theEvent) throws java.io.IOException, com.linar.jintegra.AutomationException{
+  public void OnObjectPut  (wbemdisp.ISWbemSinkEventsOnObjectPutEvent theEvent) throws java.io.IOException, com.linar.jintegra.AutomationException{
     com.linar.jintegra.Variant[] parameters = {new Variant("theEvent.objWbemObjectPath", 9, theEvent.objWbemObjectPath),
                                          new Variant("theEvent.objWbemAsyncContext", 9, theEvent.objWbemAsyncContext),};
-    invoke("onObjectPut", 4, 1, parameters);
+    invoke("OnObjectPut", 4, 1, parameters);
     return;
   }
 

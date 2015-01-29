@@ -2,7 +2,7 @@ package wbemdisp;
 
 import com.linar.jintegra.*;
 /**
- * Proxy for COM Interface 'ISWbemPrivilegeSet'. Generated 18.04.2014 15:20:21
+ * Proxy for COM Interface 'ISWbemPrivilegeSet'. Generated 21.04.2014 14:38:47
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -14,11 +14,11 @@ import com.linar.jintegra.*;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -137,26 +137,26 @@ public class ISWbemPrivilegeSetProxy extends com.linar.jintegra.Dispatch impleme
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public java.util.Enumeration get_NewEnum  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    java.util.Enumeration zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("get_NewEnum", 7, zz_parameters);
-    return (java.util.Enumeration)zz_retVal[0];
+    java.util.Enumeration ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("get_NewEnum", 7, ав=parameters);
+    return (java.util.Enumeration)ав=retVal[0];
   }
 
   /**
-   * item. Get a named Privilege from this collection
+   * Item. Get a named Privilege from this collection
    *
    * @param     iPrivilege A wbemdisp.WbemPrivilegeEnum constant (in)
    * @return    A reference to a wbemdisp.ISWbemPrivilege
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemPrivilege item  (
+  public wbemdisp.ISWbemPrivilege Item  (
               int iPrivilege) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemPrivilege zz_retVal[] = { null };
-    Object zz_parameters[] = { new Integer(iPrivilege), zz_retVal };
-    vtblInvoke("item", 8, zz_parameters);
-    return (wbemdisp.ISWbemPrivilege)zz_retVal[0];
+    wbemdisp.ISWbemPrivilege ав=retVal[] = { null };
+    Object ав=parameters[] = { new Integer(iPrivilege), ав=retVal };
+    vtblInvoke("Item", 8, ав=parameters);
+    return (wbemdisp.ISWbemPrivilege)ав=retVal[0];
   }
 
   /**
@@ -167,14 +167,14 @@ public class ISWbemPrivilegeSetProxy extends com.linar.jintegra.Dispatch impleme
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public int getCount  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    int zz_retVal[] = { 0 };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getCount", 9, zz_parameters);
-    return zz_retVal[0];
+    int ав=retVal[] = { 0 };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getCount", 9, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
-   * add. Add a Privilege to this collection
+   * Add. Add a Privilege to this collection
    *
    * @param     iPrivilege A wbemdisp.WbemPrivilegeEnum constant (in)
    * @param     bIsEnabled The bIsEnabled (in, optional, pass true if not required)
@@ -182,45 +182,45 @@ public class ISWbemPrivilegeSetProxy extends com.linar.jintegra.Dispatch impleme
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemPrivilege add  (
+  public wbemdisp.ISWbemPrivilege Add  (
               int iPrivilege,
               boolean bIsEnabled) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemPrivilege zz_retVal[] = { null };
-    Object zz_parameters[] = { new Integer(iPrivilege), new Boolean(bIsEnabled), zz_retVal };
-    vtblInvoke("add", 10, zz_parameters);
-    return (wbemdisp.ISWbemPrivilege)zz_retVal[0];
+    wbemdisp.ISWbemPrivilege ав=retVal[] = { null };
+    Object ав=parameters[] = { new Integer(iPrivilege), new Boolean(bIsEnabled), ав=retVal };
+    vtblInvoke("Add", 10, ав=parameters);
+    return (wbemdisp.ISWbemPrivilege)ав=retVal[0];
   }
 
   /**
-   * remove. Remove a Privilege from this collection
+   * Remove. Remove a Privilege from this collection
    *
    * @param     iPrivilege A wbemdisp.WbemPrivilegeEnum constant (in)
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void remove  (
+  public void Remove  (
               int iPrivilege) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { new Integer(iPrivilege), zz_retVal };
-    vtblInvoke("remove", 11, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { new Integer(iPrivilege), ав=retVal };
+    vtblInvoke("Remove", 11, ав=parameters);
     return;
   }
 
   /**
-   * deleteAll. Delete all items in this collection
+   * DeleteAll. Delete all items in this collection
    *
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void deleteAll  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("deleteAll", 12, zz_parameters);
+  public void DeleteAll  () throws java.io.IOException, com.linar.jintegra.AutomationException{
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("DeleteAll", 12, ав=parameters);
     return;
   }
 
   /**
-   * addAsString. Add a named Privilege to this collection
+   * AddAsString. Add a named Privilege to this collection
    *
    * @param     strPrivilege The strPrivilege (in)
    * @param     bIsEnabled The bIsEnabled (in, optional, pass true if not required)
@@ -228,13 +228,13 @@ public class ISWbemPrivilegeSetProxy extends com.linar.jintegra.Dispatch impleme
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemPrivilege addAsString  (
+  public wbemdisp.ISWbemPrivilege AddAsString  (
               String strPrivilege,
               boolean bIsEnabled) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemPrivilege zz_retVal[] = { null };
-    Object zz_parameters[] = { strPrivilege, new Boolean(bIsEnabled), zz_retVal };
-    vtblInvoke("addAsString", 13, zz_parameters);
-    return (wbemdisp.ISWbemPrivilege)zz_retVal[0];
+    wbemdisp.ISWbemPrivilege ав=retVal[] = { null };
+    Object ав=parameters[] = { strPrivilege, new Boolean(bIsEnabled), ав=retVal };
+    vtblInvoke("AddAsString", 13, ав=parameters);
+    return (wbemdisp.ISWbemPrivilege)ав=retVal[0];
   }
 
   /** Dummy reference from interface to proxy to make sure proxy gets compiled */

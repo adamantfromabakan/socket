@@ -2,7 +2,7 @@ package wbemdisp;
 
 import com.linar.jintegra.*;
 /**
- * Proxy for COM Interface 'ISWbemEventSource'. Generated 18.04.2014 15:20:21
+ * Proxy for COM Interface 'ISWbemEventSource'. Generated 21.04.2014 14:38:47
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -14,11 +14,11 @@ import com.linar.jintegra.*;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -130,19 +130,19 @@ public class ISWbemEventSourceProxy extends com.linar.jintegra.Dispatch implemen
   }
 
   /**
-   * nextEvent. Retrieve the next event within a specified time period. The timeout is specified in milliseconds.
+   * NextEvent. Retrieve the next event within a specified time period. The timeout is specified in milliseconds.
    *
    * @param     iTimeoutMs The iTimeoutMs (in, optional, pass -1 if not required)
    * @return    A reference to a wbemdisp.ISWbemObject
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemObject nextEvent  (
+  public wbemdisp.ISWbemObject NextEvent  (
               int iTimeoutMs) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemObject zz_retVal[] = { null };
-    Object zz_parameters[] = { new Integer(iTimeoutMs), zz_retVal };
-    vtblInvoke("nextEvent", 7, zz_parameters);
-    return (wbemdisp.ISWbemObject)zz_retVal[0];
+    wbemdisp.ISWbemObject ав=retVal[] = { null };
+    Object ав=parameters[] = { new Integer(iTimeoutMs), ав=retVal };
+    vtblInvoke("NextEvent", 7, ав=parameters);
+    return (wbemdisp.ISWbemObject)ав=retVal[0];
   }
 
   /**
@@ -153,10 +153,10 @@ public class ISWbemEventSourceProxy extends com.linar.jintegra.Dispatch implemen
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public wbemdisp.ISWbemSecurity getSecurity_  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemSecurity zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getSecurity_", 8, zz_parameters);
-    return (wbemdisp.ISWbemSecurity)zz_retVal[0];
+    wbemdisp.ISWbemSecurity ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getSecurity_", 8, ав=parameters);
+    return (wbemdisp.ISWbemSecurity)ав=retVal[0];
   }
 
   /** Dummy reference from interface to proxy to make sure proxy gets compiled */

@@ -2,7 +2,7 @@ package wbemdisp;
 
 import com.linar.jintegra.*;
 /**
- * Proxy for COM Interface 'ISWbemObjectSet'. Generated 18.04.2014 15:20:21
+ * Proxy for COM Interface 'ISWbemObjectSet'. Generated 21.04.2014 14:38:47
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -14,11 +14,11 @@ import com.linar.jintegra.*;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -137,14 +137,14 @@ public class ISWbemObjectSetProxy extends com.linar.jintegra.Dispatch implements
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public java.util.Enumeration get_NewEnum  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    java.util.Enumeration zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("get_NewEnum", 7, zz_parameters);
-    return (java.util.Enumeration)zz_retVal[0];
+    java.util.Enumeration ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("get_NewEnum", 7, ав=parameters);
+    return (java.util.Enumeration)ав=retVal[0];
   }
 
   /**
-   * item. Get an Object with a specific path from this collection
+   * Item. Get an Object with a specific path from this collection
    *
    * @param     strObjectPath The strObjectPath (in)
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
@@ -152,13 +152,13 @@ public class ISWbemObjectSetProxy extends com.linar.jintegra.Dispatch implements
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemObject item  (
+  public wbemdisp.ISWbemObject Item  (
               String strObjectPath,
               int iFlags) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemObject zz_retVal[] = { null };
-    Object zz_parameters[] = { strObjectPath, new Integer(iFlags), zz_retVal };
-    vtblInvoke("item", 8, zz_parameters);
-    return (wbemdisp.ISWbemObject)zz_retVal[0];
+    wbemdisp.ISWbemObject ав=retVal[] = { null };
+    Object ав=parameters[] = { strObjectPath, new Integer(iFlags), ав=retVal };
+    vtblInvoke("Item", 8, ав=parameters);
+    return (wbemdisp.ISWbemObject)ав=retVal[0];
   }
 
   /**
@@ -169,10 +169,10 @@ public class ISWbemObjectSetProxy extends com.linar.jintegra.Dispatch implements
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public int getCount  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    int zz_retVal[] = { 0 };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getCount", 9, zz_parameters);
-    return zz_retVal[0];
+    int ав=retVal[] = { 0 };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getCount", 9, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
@@ -183,26 +183,26 @@ public class ISWbemObjectSetProxy extends com.linar.jintegra.Dispatch implements
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public wbemdisp.ISWbemSecurity getSecurity_  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemSecurity zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getSecurity_", 10, zz_parameters);
-    return (wbemdisp.ISWbemSecurity)zz_retVal[0];
+    wbemdisp.ISWbemSecurity ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getSecurity_", 10, ав=parameters);
+    return (wbemdisp.ISWbemSecurity)ав=retVal[0];
   }
 
   /**
-   * itemIndex. Get an Object with a specific index from this collection
+   * ItemIndex. Get an Object with a specific index from this collection
    *
    * @param     lIndex The lIndex (in)
    * @return    A reference to a wbemdisp.ISWbemObject
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemObject itemIndex  (
+  public wbemdisp.ISWbemObject ItemIndex  (
               int lIndex) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemObject zz_retVal[] = { null };
-    Object zz_parameters[] = { new Integer(lIndex), zz_retVal };
-    vtblInvoke("itemIndex", 11, zz_parameters);
-    return (wbemdisp.ISWbemObject)zz_retVal[0];
+    wbemdisp.ISWbemObject ав=retVal[] = { null };
+    Object ав=parameters[] = { new Integer(lIndex), ав=retVal };
+    vtblInvoke("ItemIndex", 11, ав=parameters);
+    return (wbemdisp.ISWbemObject)ав=retVal[0];
   }
 
   /** Dummy reference from interface to proxy to make sure proxy gets compiled */

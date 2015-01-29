@@ -3,7 +3,7 @@ package wbemdisp;
 import com.linar.jintegra.*;
 
 /**
- * COM Class 'SWbemObject'. Generated 18.04.2014 15:20:21
+ * COM Class 'SWbemObject'. Generated 21.04.2014 14:38:46
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -15,11 +15,11 @@ import com.linar.jintegra.*;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -165,7 +165,7 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
   }
 
   /**
-   * put_. Save this Object
+   * Put_. Save this Object
    *
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
    * @param     objWbemNamedValueSet A reference to another Automation Object (IDispatch) (in, optional, pass IDispatch if not required)
@@ -173,11 +173,11 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemObjectPath put_  (
+  public wbemdisp.ISWbemObjectPath Put_  (
               int iFlags,
               Object objWbemNamedValueSet) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      return d_ISWbemObjectProxy.put_(iFlags,objWbemNamedValueSet);
+      return d_ISWbemObjectProxy.Put_(iFlags,objWbemNamedValueSet);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -185,7 +185,7 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
   }
 
   /**
-   * putAsync_. Save this Object asynchronously
+   * PutAsync_. Save this Object asynchronously
    *
    * @param     objWbemSink A reference to another Automation Object (IDispatch) (in)
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
@@ -194,13 +194,13 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void putAsync_  (
+  public void PutAsync_  (
               Object objWbemSink,
               int iFlags,
               Object objWbemNamedValueSet,
               Object objWbemAsyncContext) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      d_ISWbemObjectProxy.putAsync_(objWbemSink,iFlags,objWbemNamedValueSet,objWbemAsyncContext);
+      d_ISWbemObjectProxy.PutAsync_(objWbemSink,iFlags,objWbemNamedValueSet,objWbemAsyncContext);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -208,18 +208,18 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
   }
 
   /**
-   * delete_. Delete this Object
+   * Delete_. Delete this Object
    *
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
    * @param     objWbemNamedValueSet A reference to another Automation Object (IDispatch) (in, optional, pass IDispatch if not required)
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void delete_  (
+  public void Delete_  (
               int iFlags,
               Object objWbemNamedValueSet) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      d_ISWbemObjectProxy.delete_(iFlags,objWbemNamedValueSet);
+      d_ISWbemObjectProxy.Delete_(iFlags,objWbemNamedValueSet);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -227,7 +227,7 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
   }
 
   /**
-   * deleteAsync_. Delete this Object asynchronously
+   * DeleteAsync_. Delete this Object asynchronously
    *
    * @param     objWbemSink A reference to another Automation Object (IDispatch) (in)
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
@@ -236,13 +236,13 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void deleteAsync_  (
+  public void DeleteAsync_  (
               Object objWbemSink,
               int iFlags,
               Object objWbemNamedValueSet,
               Object objWbemAsyncContext) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      d_ISWbemObjectProxy.deleteAsync_(objWbemSink,iFlags,objWbemNamedValueSet,objWbemAsyncContext);
+      d_ISWbemObjectProxy.DeleteAsync_(objWbemSink,iFlags,objWbemNamedValueSet,objWbemAsyncContext);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -250,7 +250,7 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
   }
 
   /**
-   * instances_. Return all instances of this Class
+   * Instances_. Return all instances of this Class
    *
    * @param     iFlags The iFlags (in, optional, pass 16 if not required)
    * @param     objWbemNamedValueSet A reference to another Automation Object (IDispatch) (in, optional, pass IDispatch if not required)
@@ -258,11 +258,11 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemObjectSet instances_  (
+  public wbemdisp.ISWbemObjectSet Instances_  (
               int iFlags,
               Object objWbemNamedValueSet) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      return d_ISWbemObjectProxy.instances_(iFlags,objWbemNamedValueSet);
+      return d_ISWbemObjectProxy.Instances_(iFlags,objWbemNamedValueSet);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -270,7 +270,7 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
   }
 
   /**
-   * instancesAsync_. Return all instances of this Class asynchronously
+   * InstancesAsync_. Return all instances of this Class asynchronously
    *
    * @param     objWbemSink A reference to another Automation Object (IDispatch) (in)
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
@@ -279,13 +279,13 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void instancesAsync_  (
+  public void InstancesAsync_  (
               Object objWbemSink,
               int iFlags,
               Object objWbemNamedValueSet,
               Object objWbemAsyncContext) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      d_ISWbemObjectProxy.instancesAsync_(objWbemSink,iFlags,objWbemNamedValueSet,objWbemAsyncContext);
+      d_ISWbemObjectProxy.InstancesAsync_(objWbemSink,iFlags,objWbemNamedValueSet,objWbemAsyncContext);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -293,7 +293,7 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
   }
 
   /**
-   * subclasses_. Enumerate subclasses of this Class
+   * Subclasses_. Enumerate subclasses of this Class
    *
    * @param     iFlags The iFlags (in, optional, pass 16 if not required)
    * @param     objWbemNamedValueSet A reference to another Automation Object (IDispatch) (in, optional, pass IDispatch if not required)
@@ -301,11 +301,11 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemObjectSet subclasses_  (
+  public wbemdisp.ISWbemObjectSet Subclasses_  (
               int iFlags,
               Object objWbemNamedValueSet) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      return d_ISWbemObjectProxy.subclasses_(iFlags,objWbemNamedValueSet);
+      return d_ISWbemObjectProxy.Subclasses_(iFlags,objWbemNamedValueSet);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -313,7 +313,7 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
   }
 
   /**
-   * subclassesAsync_. Enumerate subclasses of this Class asynchronously
+   * SubclassesAsync_. Enumerate subclasses of this Class asynchronously
    *
    * @param     objWbemSink A reference to another Automation Object (IDispatch) (in)
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
@@ -322,13 +322,13 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void subclassesAsync_  (
+  public void SubclassesAsync_  (
               Object objWbemSink,
               int iFlags,
               Object objWbemNamedValueSet,
               Object objWbemAsyncContext) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      d_ISWbemObjectProxy.subclassesAsync_(objWbemSink,iFlags,objWbemNamedValueSet,objWbemAsyncContext);
+      d_ISWbemObjectProxy.SubclassesAsync_(objWbemSink,iFlags,objWbemNamedValueSet,objWbemAsyncContext);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -336,7 +336,7 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
   }
 
   /**
-   * associators_. Get the Associators of this Object
+   * Associators_. Get the Associators of this Object
    *
    * @param     strAssocClass The strAssocClass (in, optional, pass  if not required)
    * @param     strResultClass The strResultClass (in, optional, pass  if not required)
@@ -352,7 +352,7 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemObjectSet associators_  (
+  public wbemdisp.ISWbemObjectSet Associators_  (
               String strAssocClass,
               String strResultClass,
               String strResultRole,
@@ -364,7 +364,7 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
               int iFlags,
               Object objWbemNamedValueSet) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      return d_ISWbemObjectProxy.associators_(strAssocClass,strResultClass,strResultRole,strRole,bClassesOnly,bSchemaOnly,strRequiredAssocQualifier,strRequiredQualifier,iFlags,objWbemNamedValueSet);
+      return d_ISWbemObjectProxy.Associators_(strAssocClass,strResultClass,strResultRole,strRole,bClassesOnly,bSchemaOnly,strRequiredAssocQualifier,strRequiredQualifier,iFlags,objWbemNamedValueSet);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -372,7 +372,7 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
   }
 
   /**
-   * associatorsAsync_. Get the Associators of this Object asynchronously
+   * AssociatorsAsync_. Get the Associators of this Object asynchronously
    *
    * @param     objWbemSink A reference to another Automation Object (IDispatch) (in)
    * @param     strAssocClass The strAssocClass (in, optional, pass  if not required)
@@ -389,7 +389,7 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void associatorsAsync_  (
+  public void AssociatorsAsync_  (
               Object objWbemSink,
               String strAssocClass,
               String strResultClass,
@@ -403,7 +403,7 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
               Object objWbemNamedValueSet,
               Object objWbemAsyncContext) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      d_ISWbemObjectProxy.associatorsAsync_(objWbemSink,strAssocClass,strResultClass,strResultRole,strRole,bClassesOnly,bSchemaOnly,strRequiredAssocQualifier,strRequiredQualifier,iFlags,objWbemNamedValueSet,objWbemAsyncContext);
+      d_ISWbemObjectProxy.AssociatorsAsync_(objWbemSink,strAssocClass,strResultClass,strResultRole,strRole,bClassesOnly,bSchemaOnly,strRequiredAssocQualifier,strRequiredQualifier,iFlags,objWbemNamedValueSet,objWbemAsyncContext);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -411,7 +411,7 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
   }
 
   /**
-   * references_. Get the References to this Object
+   * References_. Get the References to this Object
    *
    * @param     strResultClass The strResultClass (in, optional, pass  if not required)
    * @param     strRole The strRole (in, optional, pass  if not required)
@@ -424,7 +424,7 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemObjectSet references_  (
+  public wbemdisp.ISWbemObjectSet References_  (
               String strResultClass,
               String strRole,
               boolean bClassesOnly,
@@ -433,7 +433,7 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
               int iFlags,
               Object objWbemNamedValueSet) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      return d_ISWbemObjectProxy.references_(strResultClass,strRole,bClassesOnly,bSchemaOnly,strRequiredQualifier,iFlags,objWbemNamedValueSet);
+      return d_ISWbemObjectProxy.References_(strResultClass,strRole,bClassesOnly,bSchemaOnly,strRequiredQualifier,iFlags,objWbemNamedValueSet);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -441,7 +441,7 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
   }
 
   /**
-   * referencesAsync_. Get the References to this Object asynchronously
+   * ReferencesAsync_. Get the References to this Object asynchronously
    *
    * @param     objWbemSink A reference to another Automation Object (IDispatch) (in)
    * @param     strResultClass The strResultClass (in, optional, pass  if not required)
@@ -455,7 +455,7 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void referencesAsync_  (
+  public void ReferencesAsync_  (
               Object objWbemSink,
               String strResultClass,
               String strRole,
@@ -466,7 +466,7 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
               Object objWbemNamedValueSet,
               Object objWbemAsyncContext) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      d_ISWbemObjectProxy.referencesAsync_(objWbemSink,strResultClass,strRole,bClassesOnly,bSchemaOnly,strRequiredQualifier,iFlags,objWbemNamedValueSet,objWbemAsyncContext);
+      d_ISWbemObjectProxy.ReferencesAsync_(objWbemSink,strResultClass,strRole,bClassesOnly,bSchemaOnly,strRequiredQualifier,iFlags,objWbemNamedValueSet,objWbemAsyncContext);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -474,7 +474,7 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
   }
 
   /**
-   * execMethod_. Execute a Method of this Object
+   * ExecMethod_. Execute a Method of this Object
    *
    * @param     strMethodName The strMethodName (in)
    * @param     objWbemInParameters A reference to another Automation Object (IDispatch) (in, optional, pass IDispatch if not required)
@@ -484,13 +484,13 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemObject execMethod_  (
+  public wbemdisp.ISWbemObject ExecMethod_  (
               String strMethodName,
               Object objWbemInParameters,
               int iFlags,
               Object objWbemNamedValueSet) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      return d_ISWbemObjectProxy.execMethod_(strMethodName,objWbemInParameters,iFlags,objWbemNamedValueSet);
+      return d_ISWbemObjectProxy.ExecMethod_(strMethodName,objWbemInParameters,iFlags,objWbemNamedValueSet);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -498,7 +498,7 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
   }
 
   /**
-   * execMethodAsync_. Execute a Method of this Object asynchronously
+   * ExecMethodAsync_. Execute a Method of this Object asynchronously
    *
    * @param     objWbemSink A reference to another Automation Object (IDispatch) (in)
    * @param     strMethodName The strMethodName (in)
@@ -509,7 +509,7 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void execMethodAsync_  (
+  public void ExecMethodAsync_  (
               Object objWbemSink,
               String strMethodName,
               Object objWbemInParameters,
@@ -517,7 +517,7 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
               Object objWbemNamedValueSet,
               Object objWbemAsyncContext) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      d_ISWbemObjectProxy.execMethodAsync_(objWbemSink,strMethodName,objWbemInParameters,iFlags,objWbemNamedValueSet,objWbemAsyncContext);
+      d_ISWbemObjectProxy.ExecMethodAsync_(objWbemSink,strMethodName,objWbemInParameters,iFlags,objWbemNamedValueSet,objWbemAsyncContext);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -525,15 +525,15 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
   }
 
   /**
-   * clone_. Clone this Object
+   * Clone_. Clone this Object
    *
    * @return    A reference to a wbemdisp.ISWbemObject
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemObject clone_  () throws java.io.IOException, com.linar.jintegra.AutomationException {
+  public wbemdisp.ISWbemObject Clone_  () throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      return d_ISWbemObjectProxy.clone_();
+      return d_ISWbemObjectProxy.Clone_();
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -541,17 +541,17 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
   }
 
   /**
-   * getObjectText_. Get the MOF text of this Object
+   * GetObjectText_. Get the MOF text of this Object
    *
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
    * @return    The strObjectText
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public String getObjectText_  (
+  public String GetObjectText_  (
               int iFlags) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      return d_ISWbemObjectProxy.getObjectText_(iFlags);
+      return d_ISWbemObjectProxy.GetObjectText_(iFlags);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -559,17 +559,17 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
   }
 
   /**
-   * spawnDerivedClass_. Create a subclass of this Object
+   * SpawnDerivedClass_. Create a subclass of this Object
    *
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
    * @return    A reference to a wbemdisp.ISWbemObject
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemObject spawnDerivedClass_  (
+  public wbemdisp.ISWbemObject SpawnDerivedClass_  (
               int iFlags) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      return d_ISWbemObjectProxy.spawnDerivedClass_(iFlags);
+      return d_ISWbemObjectProxy.SpawnDerivedClass_(iFlags);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -577,17 +577,17 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
   }
 
   /**
-   * spawnInstance_. Create an Instance of this Object
+   * SpawnInstance_. Create an Instance of this Object
    *
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
    * @return    A reference to a wbemdisp.ISWbemObject
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemObject spawnInstance_  (
+  public wbemdisp.ISWbemObject SpawnInstance_  (
               int iFlags) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      return d_ISWbemObjectProxy.spawnInstance_(iFlags);
+      return d_ISWbemObjectProxy.SpawnInstance_(iFlags);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -595,7 +595,7 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
   }
 
   /**
-   * compareTo_. Compare this Object with another
+   * CompareTo_. Compare this Object with another
    *
    * @param     objWbemObject A reference to another Automation Object (IDispatch) (in)
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
@@ -603,11 +603,11 @@ public class SWbemObject implements com.linar.jintegra.RemoteObjRef, wbemdisp.IS
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public boolean compareTo_  (
+  public boolean CompareTo_  (
               Object objWbemObject,
               int iFlags) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      return d_ISWbemObjectProxy.compareTo_(objWbemObject,iFlags);
+      return d_ISWbemObjectProxy.CompareTo_(objWbemObject,iFlags);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;

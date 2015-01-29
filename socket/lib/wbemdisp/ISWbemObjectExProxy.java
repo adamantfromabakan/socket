@@ -2,7 +2,7 @@ package wbemdisp;
 
 import com.linar.jintegra.*;
 /**
- * Proxy for COM Interface 'ISWbemObjectEx'. Generated 18.04.2014 15:20:22
+ * Proxy for COM Interface 'ISWbemObjectEx'. Generated 21.04.2014 14:38:48
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -14,11 +14,11 @@ import com.linar.jintegra.*;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -130,19 +130,19 @@ public class ISWbemObjectExProxy extends wbemdisp.ISWbemObjectProxy implements w
   }
 
   /**
-   * refresh_. Refresh this Object
+   * Refresh_. Refresh this Object
    *
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
    * @param     objWbemNamedValueSet A reference to another Automation Object (IDispatch) (in, optional, pass IDispatch if not required)
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void refresh_  (
+  public void Refresh_  (
               int iFlags,
               Object objWbemNamedValueSet) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { new Integer(iFlags), objWbemNamedValueSet, zz_retVal };
-    vtblInvoke("refresh_", 32, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { new Integer(iFlags), objWbemNamedValueSet, ав=retVal };
+    vtblInvoke("Refresh_", 32, ав=parameters);
     return;
   }
 
@@ -154,14 +154,14 @@ public class ISWbemObjectExProxy extends wbemdisp.ISWbemObjectProxy implements w
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public wbemdisp.ISWbemPropertySet getSystemProperties_  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemPropertySet zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getSystemProperties_", 33, zz_parameters);
-    return (wbemdisp.ISWbemPropertySet)zz_retVal[0];
+    wbemdisp.ISWbemPropertySet ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getSystemProperties_", 33, ав=parameters);
+    return (wbemdisp.ISWbemPropertySet)ав=retVal[0];
   }
 
   /**
-   * getText_. Retrieve a textual representation of this Object
+   * GetText_. Retrieve a textual representation of this Object
    *
    * @param     iObjectTextFormat A wbemdisp.WbemObjectTextFormatEnum constant (in)
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
@@ -170,18 +170,18 @@ public class ISWbemObjectExProxy extends wbemdisp.ISWbemObjectProxy implements w
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public String getText_  (
+  public String GetText_  (
               int iObjectTextFormat,
               int iFlags,
               Object objWbemNamedValueSet) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    String zz_retVal[] = { null };
-    Object zz_parameters[] = { new Integer(iObjectTextFormat), new Integer(iFlags), objWbemNamedValueSet, zz_retVal };
-    vtblInvoke("getText_", 34, zz_parameters);
-    return (String)zz_retVal[0];
+    String ав=retVal[] = { null };
+    Object ав=parameters[] = { new Integer(iObjectTextFormat), new Integer(iFlags), objWbemNamedValueSet, ав=retVal };
+    vtblInvoke("GetText_", 34, ав=parameters);
+    return (String)ав=retVal[0];
   }
 
   /**
-   * setFromText_. Set this Object using the supplied textual representation
+   * SetFromText_. Set this Object using the supplied textual representation
    *
    * @param     bsText The bsText (in)
    * @param     iObjectTextFormat A wbemdisp.WbemObjectTextFormatEnum constant (in)
@@ -190,14 +190,14 @@ public class ISWbemObjectExProxy extends wbemdisp.ISWbemObjectProxy implements w
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void setFromText_  (
+  public void SetFromText_  (
               String bsText,
               int iObjectTextFormat,
               int iFlags,
               Object objWbemNamedValueSet) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { bsText, new Integer(iObjectTextFormat), new Integer(iFlags), objWbemNamedValueSet, zz_retVal };
-    vtblInvoke("setFromText_", 35, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { bsText, new Integer(iObjectTextFormat), new Integer(iFlags), objWbemNamedValueSet, ав=retVal };
+    vtblInvoke("SetFromText_", 35, ав=parameters);
     return;
   }
 

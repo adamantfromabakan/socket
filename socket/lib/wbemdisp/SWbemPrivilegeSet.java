@@ -3,7 +3,7 @@ package wbemdisp;
 import com.linar.jintegra.*;
 
 /**
- * COM Class 'SWbemPrivilegeSet'. Generated 18.04.2014 15:20:21
+ * COM Class 'SWbemPrivilegeSet'. Generated 21.04.2014 14:38:46
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -15,11 +15,11 @@ import com.linar.jintegra.*;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -181,17 +181,17 @@ public class SWbemPrivilegeSet implements com.linar.jintegra.RemoteObjRef, wbemd
   }
 
   /**
-   * item. Get a named Privilege from this collection
+   * Item. Get a named Privilege from this collection
    *
    * @param     iPrivilege A wbemdisp.WbemPrivilegeEnum constant (in)
    * @return    A reference to a wbemdisp.ISWbemPrivilege
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemPrivilege item  (
+  public wbemdisp.ISWbemPrivilege Item  (
               int iPrivilege) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      return d_ISWbemPrivilegeSetProxy.item(iPrivilege);
+      return d_ISWbemPrivilegeSetProxy.Item(iPrivilege);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -215,7 +215,7 @@ public class SWbemPrivilegeSet implements com.linar.jintegra.RemoteObjRef, wbemd
   }
 
   /**
-   * add. Add a Privilege to this collection
+   * Add. Add a Privilege to this collection
    *
    * @param     iPrivilege A wbemdisp.WbemPrivilegeEnum constant (in)
    * @param     bIsEnabled The bIsEnabled (in, optional, pass true if not required)
@@ -223,11 +223,11 @@ public class SWbemPrivilegeSet implements com.linar.jintegra.RemoteObjRef, wbemd
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemPrivilege add  (
+  public wbemdisp.ISWbemPrivilege Add  (
               int iPrivilege,
               boolean bIsEnabled) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      return d_ISWbemPrivilegeSetProxy.add(iPrivilege,bIsEnabled);
+      return d_ISWbemPrivilegeSetProxy.Add(iPrivilege,bIsEnabled);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -235,16 +235,16 @@ public class SWbemPrivilegeSet implements com.linar.jintegra.RemoteObjRef, wbemd
   }
 
   /**
-   * remove. Remove a Privilege from this collection
+   * Remove. Remove a Privilege from this collection
    *
    * @param     iPrivilege A wbemdisp.WbemPrivilegeEnum constant (in)
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void remove  (
+  public void Remove  (
               int iPrivilege) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      d_ISWbemPrivilegeSetProxy.remove(iPrivilege);
+      d_ISWbemPrivilegeSetProxy.Remove(iPrivilege);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -252,14 +252,14 @@ public class SWbemPrivilegeSet implements com.linar.jintegra.RemoteObjRef, wbemd
   }
 
   /**
-   * deleteAll. Delete all items in this collection
+   * DeleteAll. Delete all items in this collection
    *
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void deleteAll  () throws java.io.IOException, com.linar.jintegra.AutomationException {
+  public void DeleteAll  () throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      d_ISWbemPrivilegeSetProxy.deleteAll();
+      d_ISWbemPrivilegeSetProxy.DeleteAll();
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -267,7 +267,7 @@ public class SWbemPrivilegeSet implements com.linar.jintegra.RemoteObjRef, wbemd
   }
 
   /**
-   * addAsString. Add a named Privilege to this collection
+   * AddAsString. Add a named Privilege to this collection
    *
    * @param     strPrivilege The strPrivilege (in)
    * @param     bIsEnabled The bIsEnabled (in, optional, pass true if not required)
@@ -275,11 +275,11 @@ public class SWbemPrivilegeSet implements com.linar.jintegra.RemoteObjRef, wbemd
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemPrivilege addAsString  (
+  public wbemdisp.ISWbemPrivilege AddAsString  (
               String strPrivilege,
               boolean bIsEnabled) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      return d_ISWbemPrivilegeSetProxy.addAsString(strPrivilege,bIsEnabled);
+      return d_ISWbemPrivilegeSetProxy.AddAsString(strPrivilege,bIsEnabled);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;

@@ -1,7 +1,7 @@
 package wbemdisp;
 
 /**
- * COM Interface 'ISWbemPrivilegeSet'. Generated 18.04.2014 15:20:21
+ * COM Interface 'ISWbemPrivilegeSet'. Generated 21.04.2014 14:38:47
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -13,11 +13,11 @@ package wbemdisp;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -27,7 +27,7 @@ package wbemdisp;
  *   MakeClsidsPublic = False
  *   DontOverwrite = False
  */
-public interface ISWbemPrivilegeSet extends java.io.Serializable {
+public interface ISWbemPrivilegeSet {
   /**
    * get_NewEnum. 
    *
@@ -38,14 +38,14 @@ public interface ISWbemPrivilegeSet extends java.io.Serializable {
   public java.util.Enumeration get_NewEnum  () throws java.io.IOException, com.linar.jintegra.AutomationException;
 
   /**
-   * item. Get a named Privilege from this collection
+   * Item. Get a named Privilege from this collection
    *
    * @param     iPrivilege A wbemdisp.WbemPrivilegeEnum constant (in)
    * @return    A reference to a wbemdisp.ISWbemPrivilege
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemPrivilege item  (
+  public wbemdisp.ISWbemPrivilege Item  (
               int iPrivilege) throws java.io.IOException, com.linar.jintegra.AutomationException;
 
   /**
@@ -58,7 +58,7 @@ public interface ISWbemPrivilegeSet extends java.io.Serializable {
   public int getCount  () throws java.io.IOException, com.linar.jintegra.AutomationException;
 
   /**
-   * add. Add a Privilege to this collection
+   * Add. Add a Privilege to this collection
    *
    * @param     iPrivilege A wbemdisp.WbemPrivilegeEnum constant (in)
    * @param     bIsEnabled The bIsEnabled (in, optional, pass true if not required)
@@ -66,30 +66,30 @@ public interface ISWbemPrivilegeSet extends java.io.Serializable {
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemPrivilege add  (
+  public wbemdisp.ISWbemPrivilege Add  (
               int iPrivilege,
               boolean bIsEnabled) throws java.io.IOException, com.linar.jintegra.AutomationException;
 
   /**
-   * remove. Remove a Privilege from this collection
+   * Remove. Remove a Privilege from this collection
    *
    * @param     iPrivilege A wbemdisp.WbemPrivilegeEnum constant (in)
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void remove  (
+  public void Remove  (
               int iPrivilege) throws java.io.IOException, com.linar.jintegra.AutomationException;
 
   /**
-   * deleteAll. Delete all items in this collection
+   * DeleteAll. Delete all items in this collection
    *
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void deleteAll  () throws java.io.IOException, com.linar.jintegra.AutomationException;
+  public void DeleteAll  () throws java.io.IOException, com.linar.jintegra.AutomationException;
 
   /**
-   * addAsString. Add a named Privilege to this collection
+   * AddAsString. Add a named Privilege to this collection
    *
    * @param     strPrivilege The strPrivilege (in)
    * @param     bIsEnabled The bIsEnabled (in, optional, pass true if not required)
@@ -97,7 +97,7 @@ public interface ISWbemPrivilegeSet extends java.io.Serializable {
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemPrivilege addAsString  (
+  public wbemdisp.ISWbemPrivilege AddAsString  (
               String strPrivilege,
               boolean bIsEnabled) throws java.io.IOException, com.linar.jintegra.AutomationException;
 
@@ -110,10 +110,10 @@ public interface ISWbemPrivilegeSet extends java.io.Serializable {
   /** Used internally by J-Integra for COM, please ignore */
   String IID = "26ee67bf-5804-11d2-8b4a-00600806d9b6";
   String DISPID__4_GET_NAME = "get_NewEnum";
-  String DISPID_0_NAME = "item";
+  String DISPID_0_NAME = "Item";
   String DISPID_1_GET_NAME = "getCount";
-  String DISPID_2_NAME = "add";
-  String DISPID_3_NAME = "remove";
-  String DISPID_4_NAME = "deleteAll";
-  String DISPID_5_NAME = "addAsString";
+  String DISPID_2_NAME = "Add";
+  String DISPID_3_NAME = "Remove";
+  String DISPID_4_NAME = "DeleteAll";
+  String DISPID_5_NAME = "AddAsString";
 }

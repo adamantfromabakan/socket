@@ -1,7 +1,7 @@
 package wbemdisp;
 
 /**
- * COM Interface 'ISWbemServicesEx'. Generated 18.04.2014 15:20:21
+ * COM Interface 'ISWbemServicesEx'. Generated 21.04.2014 14:38:48
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -13,11 +13,11 @@ package wbemdisp;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -27,9 +27,9 @@ package wbemdisp;
  *   MakeClsidsPublic = False
  *   DontOverwrite = False
  */
-public interface ISWbemServicesEx extends wbemdisp.ISWbemServices, java.io.Serializable {
+public interface ISWbemServicesEx extends wbemdisp.ISWbemServices {
   /**
-   * put. Save the Object to this Namespace
+   * Put. Save the Object to this Namespace
    *
    * @param     objWbemObject A reference to a wbemdisp.ISWbemObjectEx (in)
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
@@ -38,13 +38,13 @@ public interface ISWbemServicesEx extends wbemdisp.ISWbemServices, java.io.Seria
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemObjectPath put  (
+  public wbemdisp.ISWbemObjectPath Put  (
               wbemdisp.ISWbemObjectEx objWbemObject,
               int iFlags,
               Object objWbemNamedValueSet) throws java.io.IOException, com.linar.jintegra.AutomationException;
 
   /**
-   * putAsync. Save the Object to this Namespace asynchronously
+   * PutAsync. Save the Object to this Namespace asynchronously
    *
    * @param     objWbemSink A reference to a wbemdisp.ISWbemSink (in)
    * @param     objWbemObject A reference to a wbemdisp.ISWbemObjectEx (in)
@@ -54,7 +54,7 @@ public interface ISWbemServicesEx extends wbemdisp.ISWbemServices, java.io.Seria
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void putAsync  (
+  public void PutAsync  (
               wbemdisp.ISWbemSink objWbemSink,
               wbemdisp.ISWbemObjectEx objWbemObject,
               int iFlags,
@@ -69,6 +69,6 @@ public interface ISWbemServicesEx extends wbemdisp.ISWbemServices, java.io.Seria
   int xxDummy = ISWbemServicesExProxy.xxDummy;
   /** Used internally by J-Integra for COM, please ignore */
   String IID = "d2f68443-85dc-427e-91d8-366554cc754c";
-  String DISPID_20_NAME = "put";
-  String DISPID_21_NAME = "putAsync";
+  String DISPID_20_NAME = "Put";
+  String DISPID_21_NAME = "PutAsync";
 }

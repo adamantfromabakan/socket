@@ -2,7 +2,7 @@ package wbemdisp;
 
 import com.linar.jintegra.*;
 /**
- * Proxy for COM Interface 'ISWbemObjectPath'. Generated 18.04.2014 15:20:21
+ * Proxy for COM Interface 'ISWbemObjectPath'. Generated 21.04.2014 14:38:47
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -14,11 +14,11 @@ import com.linar.jintegra.*;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -137,10 +137,10 @@ public class ISWbemObjectPathProxy extends com.linar.jintegra.Dispatch implement
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public String getPath  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    String zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getPath", 7, zz_parameters);
-    return (String)zz_retVal[0];
+    String ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getPath", 7, ав=parameters);
+    return (String)ав=retVal[0];
   }
 
   /**
@@ -152,9 +152,9 @@ public class ISWbemObjectPathProxy extends com.linar.jintegra.Dispatch implement
    */
   public void setPath  (
               String strPath) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { strPath, zz_retVal };
-    vtblInvoke("setPath", 8, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { strPath, ав=retVal };
+    vtblInvoke("setPath", 8, ав=parameters);
     return;
   }
 
@@ -166,10 +166,10 @@ public class ISWbemObjectPathProxy extends com.linar.jintegra.Dispatch implement
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public String getRelPath  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    String zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getRelPath", 9, zz_parameters);
-    return (String)zz_retVal[0];
+    String ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getRelPath", 9, ав=parameters);
+    return (String)ав=retVal[0];
   }
 
   /**
@@ -181,9 +181,9 @@ public class ISWbemObjectPathProxy extends com.linar.jintegra.Dispatch implement
    */
   public void setRelPath  (
               String strRelPath) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { strRelPath, zz_retVal };
-    vtblInvoke("setRelPath", 10, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { strRelPath, ав=retVal };
+    vtblInvoke("setRelPath", 10, ав=parameters);
     return;
   }
 
@@ -195,10 +195,10 @@ public class ISWbemObjectPathProxy extends com.linar.jintegra.Dispatch implement
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public String getServer  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    String zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getServer", 11, zz_parameters);
-    return (String)zz_retVal[0];
+    String ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getServer", 11, ав=parameters);
+    return (String)ав=retVal[0];
   }
 
   /**
@@ -210,9 +210,9 @@ public class ISWbemObjectPathProxy extends com.linar.jintegra.Dispatch implement
    */
   public void setServer  (
               String strServer) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { strServer, zz_retVal };
-    vtblInvoke("setServer", 12, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { strServer, ав=retVal };
+    vtblInvoke("setServer", 12, ав=parameters);
     return;
   }
 
@@ -224,10 +224,10 @@ public class ISWbemObjectPathProxy extends com.linar.jintegra.Dispatch implement
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public String getNamespace  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    String zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getNamespace", 13, zz_parameters);
-    return (String)zz_retVal[0];
+    String ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getNamespace", 13, ав=parameters);
+    return (String)ав=retVal[0];
   }
 
   /**
@@ -239,9 +239,9 @@ public class ISWbemObjectPathProxy extends com.linar.jintegra.Dispatch implement
    */
   public void setNamespace  (
               String strNamespace) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { strNamespace, zz_retVal };
-    vtblInvoke("setNamespace", 14, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { strNamespace, ав=retVal };
+    vtblInvoke("setNamespace", 14, ав=parameters);
     return;
   }
 
@@ -253,10 +253,10 @@ public class ISWbemObjectPathProxy extends com.linar.jintegra.Dispatch implement
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public String getParentNamespace  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    String zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getParentNamespace", 15, zz_parameters);
-    return (String)zz_retVal[0];
+    String ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getParentNamespace", 15, ав=parameters);
+    return (String)ав=retVal[0];
   }
 
   /**
@@ -267,10 +267,10 @@ public class ISWbemObjectPathProxy extends com.linar.jintegra.Dispatch implement
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public String getDisplayName  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    String zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getDisplayName", 16, zz_parameters);
-    return (String)zz_retVal[0];
+    String ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getDisplayName", 16, ав=parameters);
+    return (String)ав=retVal[0];
   }
 
   /**
@@ -282,24 +282,24 @@ public class ISWbemObjectPathProxy extends com.linar.jintegra.Dispatch implement
    */
   public void setDisplayName  (
               String strDisplayName) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { strDisplayName, zz_retVal };
-    vtblInvoke("setDisplayName", 17, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { strDisplayName, ав=retVal };
+    vtblInvoke("setDisplayName", 17, ав=parameters);
     return;
   }
 
   /**
-   * zz_getClass. The Class name
+   * ав=getClass. The Class name
    *
    * @return    The strClass
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public String zz_getClass  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    String zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("zz_getClass", 18, zz_parameters);
-    return (String)zz_retVal[0];
+  public String ав=getClass  () throws java.io.IOException, com.linar.jintegra.AutomationException{
+    String ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("ав=getClass", 18, ав=parameters);
+    return (String)ав=retVal[0];
   }
 
   /**
@@ -311,9 +311,9 @@ public class ISWbemObjectPathProxy extends com.linar.jintegra.Dispatch implement
    */
   public void setClass  (
               String strClass) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { strClass, zz_retVal };
-    vtblInvoke("setClass", 19, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { strClass, ав=retVal };
+    vtblInvoke("setClass", 19, ав=parameters);
     return;
   }
 
@@ -325,22 +325,22 @@ public class ISWbemObjectPathProxy extends com.linar.jintegra.Dispatch implement
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public boolean isClass  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    boolean zz_retVal[] = { false };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("isClass", 20, zz_parameters);
-    return zz_retVal[0];
+    boolean ав=retVal[] = { false };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("isClass", 20, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
-   * setAsClass. Coerce this path to address a Class
+   * SetAsClass. Coerce this path to address a Class
    *
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void setAsClass  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("setAsClass", 21, zz_parameters);
+  public void SetAsClass  () throws java.io.IOException, com.linar.jintegra.AutomationException{
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("SetAsClass", 21, ав=parameters);
     return;
   }
 
@@ -352,22 +352,22 @@ public class ISWbemObjectPathProxy extends com.linar.jintegra.Dispatch implement
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public boolean isSingleton  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    boolean zz_retVal[] = { false };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("isSingleton", 22, zz_parameters);
-    return zz_retVal[0];
+    boolean ав=retVal[] = { false };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("isSingleton", 22, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
-   * setAsSingleton. Coerce this path to address a Singleton Instance
+   * SetAsSingleton. Coerce this path to address a Singleton Instance
    *
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void setAsSingleton  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("setAsSingleton", 23, zz_parameters);
+  public void SetAsSingleton  () throws java.io.IOException, com.linar.jintegra.AutomationException{
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("SetAsSingleton", 23, ав=parameters);
     return;
   }
 
@@ -379,10 +379,10 @@ public class ISWbemObjectPathProxy extends com.linar.jintegra.Dispatch implement
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public wbemdisp.ISWbemNamedValueSet getKeys  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemNamedValueSet zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getKeys", 24, zz_parameters);
-    return (wbemdisp.ISWbemNamedValueSet)zz_retVal[0];
+    wbemdisp.ISWbemNamedValueSet ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getKeys", 24, ав=parameters);
+    return (wbemdisp.ISWbemNamedValueSet)ав=retVal[0];
   }
 
   /**
@@ -393,10 +393,10 @@ public class ISWbemObjectPathProxy extends com.linar.jintegra.Dispatch implement
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public wbemdisp.ISWbemSecurity getSecurity_  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    wbemdisp.ISWbemSecurity zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getSecurity_", 25, zz_parameters);
-    return (wbemdisp.ISWbemSecurity)zz_retVal[0];
+    wbemdisp.ISWbemSecurity ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getSecurity_", 25, ав=parameters);
+    return (wbemdisp.ISWbemSecurity)ав=retVal[0];
   }
 
   /**
@@ -407,10 +407,10 @@ public class ISWbemObjectPathProxy extends com.linar.jintegra.Dispatch implement
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public String getLocale  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    String zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getLocale", 26, zz_parameters);
-    return (String)zz_retVal[0];
+    String ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getLocale", 26, ав=parameters);
+    return (String)ав=retVal[0];
   }
 
   /**
@@ -422,9 +422,9 @@ public class ISWbemObjectPathProxy extends com.linar.jintegra.Dispatch implement
    */
   public void setLocale  (
               String strLocale) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { strLocale, zz_retVal };
-    vtblInvoke("setLocale", 27, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { strLocale, ав=retVal };
+    vtblInvoke("setLocale", 27, ав=parameters);
     return;
   }
 
@@ -436,10 +436,10 @@ public class ISWbemObjectPathProxy extends com.linar.jintegra.Dispatch implement
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public String getAuthority  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    String zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getAuthority", 28, zz_parameters);
-    return (String)zz_retVal[0];
+    String ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getAuthority", 28, ав=parameters);
+    return (String)ав=retVal[0];
   }
 
   /**
@@ -451,9 +451,9 @@ public class ISWbemObjectPathProxy extends com.linar.jintegra.Dispatch implement
    */
   public void setAuthority  (
               String strAuthority) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { strAuthority, zz_retVal };
-    vtblInvoke("setAuthority", 29, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { strAuthority, ав=retVal };
+    vtblInvoke("setAuthority", 29, ав=parameters);
     return;
   }
 

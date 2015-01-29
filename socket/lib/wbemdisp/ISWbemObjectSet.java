@@ -1,7 +1,7 @@
 package wbemdisp;
 
 /**
- * COM Interface 'ISWbemObjectSet'. Generated 18.04.2014 15:20:21
+ * COM Interface 'ISWbemObjectSet'. Generated 21.04.2014 14:38:47
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -13,11 +13,11 @@ package wbemdisp;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -27,7 +27,7 @@ package wbemdisp;
  *   MakeClsidsPublic = False
  *   DontOverwrite = False
  */
-public interface ISWbemObjectSet extends java.io.Serializable {
+public interface ISWbemObjectSet {
   /**
    * get_NewEnum. 
    *
@@ -38,7 +38,7 @@ public interface ISWbemObjectSet extends java.io.Serializable {
   public java.util.Enumeration get_NewEnum  () throws java.io.IOException, com.linar.jintegra.AutomationException;
 
   /**
-   * item. Get an Object with a specific path from this collection
+   * Item. Get an Object with a specific path from this collection
    *
    * @param     strObjectPath The strObjectPath (in)
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
@@ -46,7 +46,7 @@ public interface ISWbemObjectSet extends java.io.Serializable {
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemObject item  (
+  public wbemdisp.ISWbemObject Item  (
               String strObjectPath,
               int iFlags) throws java.io.IOException, com.linar.jintegra.AutomationException;
 
@@ -69,14 +69,14 @@ public interface ISWbemObjectSet extends java.io.Serializable {
   public wbemdisp.ISWbemSecurity getSecurity_  () throws java.io.IOException, com.linar.jintegra.AutomationException;
 
   /**
-   * itemIndex. Get an Object with a specific index from this collection
+   * ItemIndex. Get an Object with a specific index from this collection
    *
    * @param     lIndex The lIndex (in)
    * @return    A reference to a wbemdisp.ISWbemObject
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemObject itemIndex  (
+  public wbemdisp.ISWbemObject ItemIndex  (
               int lIndex) throws java.io.IOException, com.linar.jintegra.AutomationException;
 
 
@@ -88,8 +88,8 @@ public interface ISWbemObjectSet extends java.io.Serializable {
   /** Used internally by J-Integra for COM, please ignore */
   String IID = "76a6415f-cb41-11d1-8b02-00600806d9b6";
   String DISPID__4_GET_NAME = "get_NewEnum";
-  String DISPID_0_NAME = "item";
+  String DISPID_0_NAME = "Item";
   String DISPID_1_GET_NAME = "getCount";
   String DISPID_4_GET_NAME = "getSecurity_";
-  String DISPID_5_NAME = "itemIndex";
+  String DISPID_5_NAME = "ItemIndex";
 }

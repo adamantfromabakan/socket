@@ -1,7 +1,7 @@
 package wbemdisp;
 
 /**
- * COM Interface 'ISWbemObjectPath'. Generated 18.04.2014 15:20:21
+ * COM Interface 'ISWbemObjectPath'. Generated 21.04.2014 14:38:47
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -13,11 +13,11 @@ package wbemdisp;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -27,7 +27,7 @@ package wbemdisp;
  *   MakeClsidsPublic = False
  *   DontOverwrite = False
  */
-public interface ISWbemObjectPath extends java.io.Serializable {
+public interface ISWbemObjectPath {
   /**
    * getPath. The full path
    *
@@ -133,13 +133,13 @@ public interface ISWbemObjectPath extends java.io.Serializable {
               String strDisplayName) throws java.io.IOException, com.linar.jintegra.AutomationException;
 
   /**
-   * zz_getClass. The Class name
+   * ав=getClass. The Class name
    *
    * @return    The strClass
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public String zz_getClass  () throws java.io.IOException, com.linar.jintegra.AutomationException;
+  public String ав=getClass  () throws java.io.IOException, com.linar.jintegra.AutomationException;
 
   /**
    * setClass. The Class name
@@ -161,12 +161,12 @@ public interface ISWbemObjectPath extends java.io.Serializable {
   public boolean isClass  () throws java.io.IOException, com.linar.jintegra.AutomationException;
 
   /**
-   * setAsClass. Coerce this path to address a Class
+   * SetAsClass. Coerce this path to address a Class
    *
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void setAsClass  () throws java.io.IOException, com.linar.jintegra.AutomationException;
+  public void SetAsClass  () throws java.io.IOException, com.linar.jintegra.AutomationException;
 
   /**
    * isSingleton. Indicates whether this path addresses a Singleton Instance
@@ -178,12 +178,12 @@ public interface ISWbemObjectPath extends java.io.Serializable {
   public boolean isSingleton  () throws java.io.IOException, com.linar.jintegra.AutomationException;
 
   /**
-   * setAsSingleton. Coerce this path to address a Singleton Instance
+   * SetAsSingleton. Coerce this path to address a Singleton Instance
    *
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void setAsSingleton  () throws java.io.IOException, com.linar.jintegra.AutomationException;
+  public void SetAsSingleton  () throws java.io.IOException, com.linar.jintegra.AutomationException;
 
   /**
    * getKeys. The collection of Key value bindings for this path
@@ -260,12 +260,12 @@ public interface ISWbemObjectPath extends java.io.Serializable {
   String DISPID_4_GET_NAME = "getParentNamespace";
   String DISPID_5_GET_NAME = "getDisplayName";
   String DISPID_5_PUT_NAME = "setDisplayName";
-  String DISPID_6_GET_NAME = "zz_getClass";
+  String DISPID_6_GET_NAME = "ав=getClass";
   String DISPID_6_PUT_NAME = "setClass";
   String DISPID_7_GET_NAME = "isClass";
-  String DISPID_8_NAME = "setAsClass";
+  String DISPID_8_NAME = "SetAsClass";
   String DISPID_9_GET_NAME = "isSingleton";
-  String DISPID_10_NAME = "setAsSingleton";
+  String DISPID_10_NAME = "SetAsSingleton";
   String DISPID_11_GET_NAME = "getKeys";
   String DISPID_12_GET_NAME = "getSecurity_";
   String DISPID_13_GET_NAME = "getLocale";

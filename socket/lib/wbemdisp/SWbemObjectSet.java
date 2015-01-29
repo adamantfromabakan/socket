@@ -3,7 +3,7 @@ package wbemdisp;
 import com.linar.jintegra.*;
 
 /**
- * COM Class 'SWbemObjectSet'. Generated 18.04.2014 15:20:21
+ * COM Class 'SWbemObjectSet'. Generated 21.04.2014 14:38:46
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -15,11 +15,11 @@ import com.linar.jintegra.*;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -181,7 +181,7 @@ public class SWbemObjectSet implements com.linar.jintegra.RemoteObjRef, wbemdisp
   }
 
   /**
-   * item. Get an Object with a specific path from this collection
+   * Item. Get an Object with a specific path from this collection
    *
    * @param     strObjectPath The strObjectPath (in)
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
@@ -189,11 +189,11 @@ public class SWbemObjectSet implements com.linar.jintegra.RemoteObjRef, wbemdisp
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemObject item  (
+  public wbemdisp.ISWbemObject Item  (
               String strObjectPath,
               int iFlags) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      return d_ISWbemObjectSetProxy.item(strObjectPath,iFlags);
+      return d_ISWbemObjectSetProxy.Item(strObjectPath,iFlags);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -233,17 +233,17 @@ public class SWbemObjectSet implements com.linar.jintegra.RemoteObjRef, wbemdisp
   }
 
   /**
-   * itemIndex. Get an Object with a specific index from this collection
+   * ItemIndex. Get an Object with a specific index from this collection
    *
    * @param     lIndex The lIndex (in)
    * @return    A reference to a wbemdisp.ISWbemObject
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemObject itemIndex  (
+  public wbemdisp.ISWbemObject ItemIndex  (
               int lIndex) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      return d_ISWbemObjectSetProxy.itemIndex(lIndex);
+      return d_ISWbemObjectSetProxy.ItemIndex(lIndex);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;

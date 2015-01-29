@@ -3,7 +3,7 @@ package wbemdisp;
 import com.linar.jintegra.*;
 
 /**
- * COM Class 'SWbemDateTime'. Generated 18.04.2014 15:20:21
+ * COM Class 'SWbemDateTime'. Generated 21.04.2014 14:38:46
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -15,11 +15,11 @@ import com.linar.jintegra.*;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -779,17 +779,17 @@ public class SWbemDateTime implements com.linar.jintegra.RemoteObjRef, wbemdisp.
   }
 
   /**
-   * getVarDate. Retrieve value in Variant compatible (VT_DATE) format
+   * GetVarDate. Retrieve value in Variant compatible (VT_DATE) format
    *
    * @param     bIsLocal The bIsLocal (in, optional, pass true if not required)
    * @return    The dVarDate
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public java.util.Date getVarDate  (
+  public java.util.Date GetVarDate  (
               boolean bIsLocal) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      return d_ISWbemDateTimeProxy.getVarDate(bIsLocal);
+      return d_ISWbemDateTimeProxy.GetVarDate(bIsLocal);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -797,18 +797,18 @@ public class SWbemDateTime implements com.linar.jintegra.RemoteObjRef, wbemdisp.
   }
 
   /**
-   * setVarDate. Set the value using Variant compatible (VT_DATE) format
+   * SetVarDate. Set the value using Variant compatible (VT_DATE) format
    *
    * @param     dVarDate The dVarDate (in)
    * @param     bIsLocal The bIsLocal (in, optional, pass true if not required)
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void setVarDate  (
+  public void SetVarDate  (
               java.util.Date dVarDate,
               boolean bIsLocal) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      d_ISWbemDateTimeProxy.setVarDate(dVarDate,bIsLocal);
+      d_ISWbemDateTimeProxy.SetVarDate(dVarDate,bIsLocal);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -816,17 +816,17 @@ public class SWbemDateTime implements com.linar.jintegra.RemoteObjRef, wbemdisp.
   }
 
   /**
-   * getFileTime. Retrieve value in FILETIME compatible string representation
+   * GetFileTime. Retrieve value in FILETIME compatible string representation
    *
    * @param     bIsLocal The bIsLocal (in, optional, pass true if not required)
    * @return    The strFileTime
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public String getFileTime  (
+  public String GetFileTime  (
               boolean bIsLocal) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      return d_ISWbemDateTimeProxy.getFileTime(bIsLocal);
+      return d_ISWbemDateTimeProxy.GetFileTime(bIsLocal);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;
@@ -834,18 +834,18 @@ public class SWbemDateTime implements com.linar.jintegra.RemoteObjRef, wbemdisp.
   }
 
   /**
-   * setFileTime. Set the value using FILETIME compatible string representation
+   * SetFileTime. Set the value using FILETIME compatible string representation
    *
    * @param     strFileTime The strFileTime (in)
    * @param     bIsLocal The bIsLocal (in, optional, pass true if not required)
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public void setFileTime  (
+  public void SetFileTime  (
               String strFileTime,
               boolean bIsLocal) throws java.io.IOException, com.linar.jintegra.AutomationException {
     try {
-      d_ISWbemDateTimeProxy.setFileTime(strFileTime,bIsLocal);
+      d_ISWbemDateTimeProxy.SetFileTime(strFileTime,bIsLocal);
     } catch(com.linar.jintegra.AutomationException automationException) {
       automationException.fillInStackTrace();
       throw automationException;

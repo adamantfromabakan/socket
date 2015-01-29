@@ -1,7 +1,7 @@
 package wbemdisp;
 
 /**
- * COM Interface 'ISWbemMethodSet'. Generated 18.04.2014 15:20:21
+ * COM Interface 'ISWbemMethodSet'. Generated 21.04.2014 14:38:47
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -13,11 +13,11 @@ package wbemdisp;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -27,7 +27,7 @@ package wbemdisp;
  *   MakeClsidsPublic = False
  *   DontOverwrite = False
  */
-public interface ISWbemMethodSet extends java.io.Serializable {
+public interface ISWbemMethodSet {
   /**
    * get_NewEnum. 
    *
@@ -38,7 +38,7 @@ public interface ISWbemMethodSet extends java.io.Serializable {
   public java.util.Enumeration get_NewEnum  () throws java.io.IOException, com.linar.jintegra.AutomationException;
 
   /**
-   * item. Get a named Method from this collection
+   * Item. Get a named Method from this collection
    *
    * @param     strName The strName (in)
    * @param     iFlags The iFlags (in, optional, pass 0 if not required)
@@ -46,7 +46,7 @@ public interface ISWbemMethodSet extends java.io.Serializable {
    * @exception java.io.IOException If there are communications problems.
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
-  public wbemdisp.ISWbemMethod item  (
+  public wbemdisp.ISWbemMethod Item  (
               String strName,
               int iFlags) throws java.io.IOException, com.linar.jintegra.AutomationException;
 
@@ -68,6 +68,6 @@ public interface ISWbemMethodSet extends java.io.Serializable {
   /** Used internally by J-Integra for COM, please ignore */
   String IID = "c93ba292-d955-11d1-8b09-00600806d9b6";
   String DISPID__4_GET_NAME = "get_NewEnum";
-  String DISPID_0_NAME = "item";
+  String DISPID_0_NAME = "Item";
   String DISPID_1_GET_NAME = "getCount";
 }

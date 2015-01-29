@@ -2,7 +2,7 @@ package wbemdisp;
 
 import com.linar.jintegra.*;
 /**
- * Proxy for COM Interface 'ISWbemQualifier'. Generated 18.04.2014 15:20:21
+ * Proxy for COM Interface 'ISWbemQualifier'. Generated 21.04.2014 14:38:47
  * from 'C:\Windows\System32\wbem\wbemdisp.tlb'<P>
  * Generated using com2java Version 64.00 (c) 2012 Intrinsyc Software International, Inc.  All rights reserved.
  * See  <A HREF="http://j-integra.intrinsyc.com/">http://j-integra.intrinsyc.com/</A><P>
@@ -14,11 +14,11 @@ import com.linar.jintegra.*;
  *   RetryOnReject = False
  *   IDispatchOnly = False
  *   GenBeanInfo = False
- *   LowerCaseMemberNames = True
+ *   LowerCaseMemberNames = False
  *   TreatInStarAsIn = False
  *   ArraysAsObjects = False
  *   OmitRestrictedMethods = False
- *   ClashPrefix = zz_
+ *   ClashPrefix = ав=
  *   ImplementConflictingInterfaces = False
  *   DontRenameSameMethods = False
  *   RenameConflictingInterfaceMethods = False
@@ -137,10 +137,10 @@ public class ISWbemQualifierProxy extends com.linar.jintegra.Dispatch implements
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public Object getValue  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getValue", 7, zz_parameters);
-    return (Object)zz_retVal[0];
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getValue", 7, ав=parameters);
+    return (Object)ав=retVal[0];
   }
 
   /**
@@ -152,9 +152,9 @@ public class ISWbemQualifierProxy extends com.linar.jintegra.Dispatch implements
    */
   public void setValue  (
               Object varValue) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { varValue == null ? new Variant("varValue") : varValue, zz_retVal };
-    vtblInvoke("setValue", 8, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { varValue == null ? new Variant("varValue") : varValue, ав=retVal };
+    vtblInvoke("setValue", 8, ав=parameters);
     return;
   }
 
@@ -166,10 +166,10 @@ public class ISWbemQualifierProxy extends com.linar.jintegra.Dispatch implements
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public String getName  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    String zz_retVal[] = { null };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("getName", 9, zz_parameters);
-    return (String)zz_retVal[0];
+    String ав=retVal[] = { null };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("getName", 9, ав=parameters);
+    return (String)ав=retVal[0];
   }
 
   /**
@@ -180,10 +180,10 @@ public class ISWbemQualifierProxy extends com.linar.jintegra.Dispatch implements
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public boolean isLocal  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    boolean zz_retVal[] = { false };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("isLocal", 10, zz_parameters);
-    return zz_retVal[0];
+    boolean ав=retVal[] = { false };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("isLocal", 10, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
@@ -194,10 +194,10 @@ public class ISWbemQualifierProxy extends com.linar.jintegra.Dispatch implements
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public boolean isPropagatesToSubclass  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    boolean zz_retVal[] = { false };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("isPropagatesToSubclass", 11, zz_parameters);
-    return zz_retVal[0];
+    boolean ав=retVal[] = { false };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("isPropagatesToSubclass", 11, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
@@ -209,9 +209,9 @@ public class ISWbemQualifierProxy extends com.linar.jintegra.Dispatch implements
    */
   public void setPropagatesToSubclass  (
               boolean bPropagatesToSubclass) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { new Boolean(bPropagatesToSubclass), zz_retVal };
-    vtblInvoke("setPropagatesToSubclass", 12, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { new Boolean(bPropagatesToSubclass), ав=retVal };
+    vtblInvoke("setPropagatesToSubclass", 12, ав=parameters);
     return;
   }
 
@@ -223,10 +223,10 @@ public class ISWbemQualifierProxy extends com.linar.jintegra.Dispatch implements
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public boolean isPropagatesToInstance  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    boolean zz_retVal[] = { false };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("isPropagatesToInstance", 13, zz_parameters);
-    return zz_retVal[0];
+    boolean ав=retVal[] = { false };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("isPropagatesToInstance", 13, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
@@ -238,9 +238,9 @@ public class ISWbemQualifierProxy extends com.linar.jintegra.Dispatch implements
    */
   public void setPropagatesToInstance  (
               boolean bPropagatesToInstance) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { new Boolean(bPropagatesToInstance), zz_retVal };
-    vtblInvoke("setPropagatesToInstance", 14, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { new Boolean(bPropagatesToInstance), ав=retVal };
+    vtblInvoke("setPropagatesToInstance", 14, ав=parameters);
     return;
   }
 
@@ -252,10 +252,10 @@ public class ISWbemQualifierProxy extends com.linar.jintegra.Dispatch implements
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public boolean isOverridable  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    boolean zz_retVal[] = { false };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("isOverridable", 15, zz_parameters);
-    return zz_retVal[0];
+    boolean ав=retVal[] = { false };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("isOverridable", 15, ав=parameters);
+    return ав=retVal[0];
   }
 
   /**
@@ -267,9 +267,9 @@ public class ISWbemQualifierProxy extends com.linar.jintegra.Dispatch implements
    */
   public void setIsOverridable  (
               boolean bIsOverridable) throws java.io.IOException, com.linar.jintegra.AutomationException{
-    Object zz_retVal[] = { null };
-    Object zz_parameters[] = { new Boolean(bIsOverridable), zz_retVal };
-    vtblInvoke("setIsOverridable", 16, zz_parameters);
+    Object ав=retVal[] = { null };
+    Object ав=parameters[] = { new Boolean(bIsOverridable), ав=retVal };
+    vtblInvoke("setIsOverridable", 16, ав=parameters);
     return;
   }
 
@@ -281,10 +281,10 @@ public class ISWbemQualifierProxy extends com.linar.jintegra.Dispatch implements
    * @exception com.linar.jintegra.AutomationException If the remote server throws an exception.
    */
   public boolean isAmended  () throws java.io.IOException, com.linar.jintegra.AutomationException{
-    boolean zz_retVal[] = { false };
-    Object zz_parameters[] = { zz_retVal };
-    vtblInvoke("isAmended", 17, zz_parameters);
-    return zz_retVal[0];
+    boolean ав=retVal[] = { false };
+    Object ав=parameters[] = { ав=retVal };
+    vtblInvoke("isAmended", 17, ав=parameters);
+    return ав=retVal[0];
   }
 
   /** Dummy reference from interface to proxy to make sure proxy gets compiled */
