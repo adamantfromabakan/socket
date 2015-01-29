@@ -14,7 +14,7 @@ public class htmlgetcontent {
    public static void main(String[] args) {
       String str_host;
       if(args[0] == "") {
-         str_host = "http://www.2ip.ru";
+      	 str_host = "http://2ip.ru";
       } else {
          str_host = args[0];
       }
@@ -28,7 +28,7 @@ public class htmlgetcontent {
 
       String str_path;
       if(args[2] == "") {
-         str_path = "c:/adm/";
+         str_path = "C:/SERVER/ADAMANT/";
       } else {
          str_path = args[2];
       }
@@ -41,11 +41,11 @@ public class htmlgetcontent {
       }
 
       try {
-         File e = new File(args[2], args[3]);
+         File e = new File(str_path, str_file);
 
          try {
             BufferedWriter e1 = new BufferedWriter(new FileWriter(e, false), 16384);
-            e1.write(getContentOfHTTPPage(args[0], args[1]));
+            e1.write(getContentOfHTTPPage(str_host, str_codepage));
             e1.close();
          } catch (IOException var7) {
             var7.printStackTrace();
@@ -66,6 +66,7 @@ public class htmlgetcontent {
       try {
          while((inputLine = br.readLine()) != null) {
             sb.append(inputLine);
+            System.out.println(inputLine);
          }
       } finally {
          br.close();
