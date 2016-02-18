@@ -24,9 +24,9 @@ public class FTPListDiffLocal {
         String ftpdir = "/out/";
         String localdir = "c:/temp/2/";
         String downdir = "c:/temp/200/";
-        boolean download = false;
+        boolean download = true;
         String errtxt = "usage jar file: [server] [port] [login] [password] [ftpdir] [localdir] [downdir] [0 or 1 flag to download]";
-        if (args.length != 8) {
+ /*       if (args.length != 8) {
             System.out.println(errtxt);
             return;
         }
@@ -65,7 +65,7 @@ public class FTPListDiffLocal {
             return;
         }
         downdir = args[6];
-        download = Integer.valueOf(args[7]) != 0;
+        download = Integer.valueOf(args[7]) != 0;*/
         FTPClient ftpClient = new FTPClient();
         try {
             ftpClient.connect(server, port);
