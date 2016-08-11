@@ -10,15 +10,24 @@ class SampleServer extends Thread
 
     public static void main(String args[])
     {
+    	
+    	String err_string ="Usage: java -jar SampleServer.jar [port]";
+        if (args.length!=1) {
+        	System.out.println(err_string);
+        	System.exit(0);
+        }
+    	
         try
         {   
+        	
+            
             String str_port;
             int i = 0; // счётчик подключений
-            if ((args[0])=="") {
+            //if ((args[0])=="") {
             str_port   ="8888";
-            } else {
+            /*} else {
             str_port   =args[0];
-            }
+            }*/
 
 
 			// привинтить сокет на локалхост, порт 3128
@@ -72,7 +81,9 @@ class SampleServer extends Thread
 
             // добавляем данные об адресе сокета:
             data = ""+num+": "+"\n"+data;
-
+            
+            System.out.println(data);
+            
             // выводим данные:
             os.write(data.getBytes());
 

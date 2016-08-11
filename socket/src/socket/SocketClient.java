@@ -11,15 +11,15 @@ class SampleClient extends Thread
         {
             // открываем сокет и коннектимся к localhost:3128
             // получаем сокет сервера
-            String str_command = "";
+            String str_command = "test";
             String str_address = "localhost";
-            String str_port = "0";        	
+            String str_port = "8888";        	
             
-            String str_orderd_list = "imei:354473050898478:orders_list,quit;";
+            //String str_orderd_list = "imei:354473050898478:orders_list,quit;";
 
-            str_address=args[0];
+/*            str_address=args[0];
             str_port   =args[1];
-            str_command=args[2];
+            str_command=args[2];*/
 /*
             str_address="localhost";
             str_port   ="80";

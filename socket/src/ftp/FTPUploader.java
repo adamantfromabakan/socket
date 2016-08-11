@@ -41,6 +41,7 @@ public class FTPUploader
             int reply = ftp.getReplyCode();
             showServerReply(ftp);
             System.out.println((new StringBuilder("Upload from:")).append(localFileFullName).toString());
+            System.out.println((new StringBuilder("Upload to:")).append(hostDir).toString());
         }
         catch(Exception e)
         {
@@ -63,15 +64,17 @@ public class FTPUploader
     public static void main(String args[])
         throws Exception
     {
-        String server = "90.189.111.202";
+        String server = "r19ftp.main.russianpost.ru";
         int port = 21;
-        String user = "hakenrg_ftp";
-        String pass = "Qm3pXtNr";
-        String ftpdir = "/in/";
-        String localdir = "c:/temp/2/";
-        String filename = "test.txt";
+        String user = "hakasenergo";
+        String pass = "ertGq1Njhf0";
+        String ftpdir = "/khenergo/";
+        String localdir = "c:/temp/post/";
+        String filename = "uploadertest.rar";
         String errtxt = "usage jar file: [server] [port] [login] [password] [ftpdir] [localdir] [filename]";
-        if(args.length != 7)
+        InputStream inStream = null;
+        OutputStream outStream = null;
+        /*if(args.length != 7)
         {
             System.out.println(errtxt);
             return;
@@ -112,12 +115,49 @@ public class FTPUploader
             return;
         }
         localdir = args[5];
-        if(args[6] == "")
-        {
-            System.out.println(errtxt);
-            return;
-        } else
-        {
+        System.out.println("args[6]="+args[6]);
+        if(args[6].equals("-"))
+        {*/
+
+            File dir = new File(localdir);
+            File dirarch = new File(localdir+"ARHIV");
+            boolean created = dirarch.mkdir();
+            if(dir.isDirectory())
+            {
+            	System.out.println("Start local directory scan");
+            	FTPUploader ftpUploader = new FTPUploader(server, port, user, pass);
+                for(File item : dir.listFiles()){
+                     if(item.isFile()){                          
+                         filename=item.getName().toString();
+                         ftpUploader.uploadFile((new StringBuilder(String.valueOf(localdir))).append(filename).toString(), filename, ftpdir);
+                         File fromFile = item;
+                         File toFile = new File(localdir+"ARHIV/"+filename);
+                         //System.out.println(fromFile.renameTo(toFile));
+                         inStream = new FileInputStream(fromFile);
+                         outStream = new FileOutputStream(toFile);
+                         byte[] buffer = new byte[1024];
+                         int length;
+                         while ((length = inStream.read(buffer)) > 0) {
+                             outStream.write(buffer, 0, length);
+                         }
+                         inStream = null;
+                         outStream = null;
+                         //System.out.println(fromFile.delete());
+                         File file = new File("C:/temp/post/ARHIV/uploadertest.txt");
+                         /*if(file.delete()){
+                             System.out.println("C:/temp/post/ARHIV/uploadertest.tx");
+                         }else System.out.println("Файла /Users/prologistic/file.txt не обнаружено");*/
+                     }
+                 }
+                for(File fldel : dir.listFiles()){
+                    if(fldel.isFile()){                          
+                        System.out.println(fldel.delete());
+                    }
+                }                
+                System.out.println("Done");
+                ftpUploader.disconnect();
+            }
+       /* } else {
             filename = args[6];
             System.out.println("Start");
             FTPUploader ftpUploader = new FTPUploader(server, port, user, pass);
@@ -125,7 +165,7 @@ public class FTPUploader
             ftpUploader.disconnect();
             System.out.println("Done");
             return;
-        }
+        }*/
     }
 
     private static void showServerReply(FTPClient ftpClient)
