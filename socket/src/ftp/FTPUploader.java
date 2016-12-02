@@ -74,7 +74,7 @@ public class FTPUploader
         String errtxt = "usage jar file: [server] [port] [login] [password] [ftpdir] [localdir] [filename]";
         InputStream inStream = null;
         OutputStream outStream = null;
-        /*if(args.length != 7)
+        if(args.length != 7)
         {
             System.out.println(errtxt);
             return;
@@ -117,7 +117,7 @@ public class FTPUploader
         localdir = args[5];
         System.out.println("args[6]="+args[6]);
         if(args[6].equals("-"))
-        {*/
+        {
 
             File dir = new File(localdir);
             File dirarch = new File(localdir+"ARHIV");
@@ -143,21 +143,22 @@ public class FTPUploader
                          inStream = null;
                          outStream = null;
                          //System.out.println(fromFile.delete());
-                         File file = new File("C:/temp/post/ARHIV/uploadertest.txt");
-                         /*if(file.delete()){
+                         /*File file = new File("C:/temp/post/ARHIV/uploadertest.txt");
+                         if(file.delete()){
                              System.out.println("C:/temp/post/ARHIV/uploadertest.tx");
                          }else System.out.println("Файла /Users/prologistic/file.txt не обнаружено");*/
                      }
                  }
                 for(File fldel : dir.listFiles()){
-                    if(fldel.isFile()){                          
+                    if(fldel.isFile()){
+                        new File(fldel.getAbsolutePath()).delete();
                         System.out.println(fldel.delete());
                     }
                 }                
                 System.out.println("Done");
                 ftpUploader.disconnect();
             }
-       /* } else {
+        } else {
             filename = args[6];
             System.out.println("Start");
             FTPUploader ftpUploader = new FTPUploader(server, port, user, pass);
@@ -165,7 +166,7 @@ public class FTPUploader
             ftpUploader.disconnect();
             System.out.println("Done");
             return;
-        }*/
+        }
     }
 
     private static void showServerReply(FTPClient ftpClient)
